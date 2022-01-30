@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+   <t t-name="CounterButton" owl="1">
+       <div class="ticket-button" t-att-class="{ highlight: props.isTicketScreenShown }" t-on-click="onClick">
+           <div class="with-badge" t-att-badge="count">
+               <i class="fa fa-ticket" aria-hidden="true"></i>
+           </div>
+           <div>My Button 3</div>
+       </div>
+    </t>
+    <t t-inherit="point_of_sale.Chrome" t-inherit-mode="extension">
+           <xpath expr="//TicketButton" position="after">
+                   <CounterButton isTicketScreenShown="isTicketScreenShown"/>
+           </xpath>
+        <xpath expr="//TicketButton" position="after">
+               <CounterButton isTicketScreenShown="isTicketScreenShown" t-if="env.isMobile"/>
+           </xpath>
+    </t>
+</templates>
