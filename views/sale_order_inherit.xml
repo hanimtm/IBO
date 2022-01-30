@@ -15,7 +15,7 @@
 
 
                 <xpath expr="//field[@name='partner_id']" position="before">
-                    <field name="test"/>
+                    <field name="test_1"/>
                 </xpath>
             </field>
         </record>
