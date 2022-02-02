@@ -15,89 +15,128 @@
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page">
+<!--                            <div style="text-align:center;">-->
+<!--                                <u>-->
+<!--                                    <h1>إقرار</h1>-->
+<!--                                </u>-->
+<!--                            </div>-->
+<!--                            <br/>-->
+<!--                            <h4 style="text-align:right;">السادة/شركة العملاق التجارية</h4>-->
+<!--                            <br/>-->
+
 <!--                            <table style="width:100%">-->
 <!--                                <tr>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <h1>ALEMLAQ TRADING Co.</h1>-->
-<!--                                        <h4>C.R: 4030014074</h4>-->
+<!--                                    <td style="width:25%; text-align:right;"/>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>رقم الهوية</h4>-->
 <!--                                    </td>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <img class="img" src="/amcl_al_emlak/static/src/img/logo.png"-->
-<!--                                             style="height:200px;width:300px;"/>-->
-<!--                                    </td>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <h1>شركة العملاق التجارية</h1>-->
-<!--                                        <h4>س.ت: 4030014074</h4>-->
+<!--                                    <td style="width:25%; text-align:right;"/>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>اقر انا المدعو</h4>-->
 <!--                                    </td>-->
 <!--                                </tr>-->
 <!--                            </table>-->
+
+<!--                            <br/>-->
+<!--                            <h4 style="text-align:right;">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة</h4>-->
+<!--                            <br/>-->
+
+<!--                            <table style="width:100%">-->
+<!--                                <tr>-->
+<!--                                    <td style="width:25%; text-align:right;"/>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>هيكل</h4>-->
+<!--                                    </td>-->
+<!--                                    <td style="width:25%; text-align:right;"/>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>نوع</h4>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                    </td>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>اللون</h4>-->
+<!--                                    </td>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+
+<!--                                    </td>-->
+<!--                                    <td style="width:25%; text-align:right;">-->
+<!--                                        <h4>الموديل</h4>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+
+<!--                            <br/>-->
+<!--                            <h4 style="text-align:right;">بأسمي وأصدر اللوحات</h4><br/>-->
+<!--                            <h4 style="text-align:right;">وهذا إقرار مني بذلك. وأشهدالله على ذلك والله خير الشاهدين</h4><br/>-->
+<!--                            <h4 style="text-align:right;">التوقيع</h4><br/>-->
+<!--                            <h4 style="text-align:right;">الجوال</h4>-->
+
                             <div style="text-align:center;">
                                 <u>
-                                    <h1>إقرار</h1>
+                                    <h1>Endorsement</h1>
                                 </u>
                             </div>
                             <br/>
-                            <h4 style="text-align:right;">السادة/شركة العملاق التجارية</h4>
+                            <h4 style="">Gentlemen/ Al Emlak Trading Company</h4>
                             <br/>
 
                             <table style="width:100%">
                                 <tr>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>رقم الهوية</h4>
+                                    <td style="width:25%;">
+                                        <h4>I admit I am invited</h4>
                                     </td>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>اقر انا المدعو</h4>
+                                    <td style="width:25%;"/>
+                                    <td style="width:25%;">
+                                        <h4>ID Number </h4>
                                     </td>
+                                    <td style="width:25%;"/>
+
                                 </tr>
                             </table>
 
-<!--                            <div class="row" style="text-align:right">-->
-<!--                                <div class="col-sm-4">&#160;</div>-->
-<!--                                <div class="col-sm-2">-->
-<!--                                    <h3>رقم الهوية</h3>-->
-<!--                                </div>-->
-<!--                                <div class="col-sm-4">&#160;</div>-->
-<!--                                <div class="col-sm-2">-->
-<!--                                    <h3>اقر انا المدعو</h3>-->
-<!--                                </div>-->
-<!--                            </div>-->
                             <br/>
-                            <h4 style="text-align:right;">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة</h4>
+                            <h4 style="">My details above show that I have no objection to registering the car </h4>
                             <br/>
 
                             <table style="width:100%">
                                 <tr>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>هيكل</h4>
+                                    <td style="width:25%;">
+                                        <h4>Type</h4>
                                     </td>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>نوع</h4>
+                                    <td style="width:25%;"/>
+                                    <td style="width:25%;">
+                                        <h4>structure </h4>
                                     </td>
+                                    <td style="width:25%;"/>
+
                                 </tr>
                                 <tr>
-                                    <td style="width:25%; text-align:right;">
+                                    <td style="width:25%;">
+                                        <h4>Model</h4>
                                     </td>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>اللون</h4>
+                                    <td style="width:25%;">
                                     </td>
-                                    <td style="width:25%; text-align:right;">
+                                    <td style="width:25%;">
+                                        <h4>Color</h4>
+                                    </td>
+                                    <td style="width:25%;">
 
                                     </td>
-                                    <td style="width:25%; text-align:right;">
-                                        <h4>الموديل</h4>
-                                    </td>
+
                                 </tr>
                             </table>
 
                             <br/>
-                            <h4 style="text-align:right;">بأسمي وأصدر اللوحات</h4><br/>
-                            <h4 style="text-align:right;">وهذا إقرار مني بذلك. وأشهدالله على ذلك والله خير الشاهدين</h4><br/>
-                            <h4 style="text-align:right;">التوقيع</h4><br/>
-                            <h4 style="text-align:right;">الجوال</h4>
+                            <h4 style="">In my name and issued the paintings</h4>
+                            <br/>
+                            <h4 style="">This is my acknowledgment of that. And God is my witness to that, and God is the best of witnesses</h4>
+                            <br/>
+                            <h4 style="">Signature</h4>
+                            <br/>
+                            <h4 style="">Mobile</h4>
+
                         </div>
                     </t>
                 </t>
