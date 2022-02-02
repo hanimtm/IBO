@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="report_ordinary_confession"
+                model="sale.order"
+                string="Ordinary Confession"
+                name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
+                file="amcl_al_emlak.report_sale_order"
+                report_type="qweb-html"/>
+
+        <template id="report_sale_order_ordinary_confession_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <table style="width:100%">
+                                <tr>
+                                    <td style="width:33%">
+                                        <h1>ALEMLAQ TRADING Co.</h1>
+                                        <h4>C.R: 4030014074</h4>
+                                    </td>
+                                    <td style="width:33%">
+                                        <img class="img" src="/amcl_al_emlak/static/src/img/logo.png"
+                                             style="height:200px;width:300px;"/>
+                                    </td>
+                                    <td style="width:33%">
+                                        <h1>شركة العملاق التجارية</h1>
+                                        <h4>س.ت: 4030014074</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div style="text-align:center;">
+                                <u>
+                                    <h1>إقرار</h1>
+                                </u>
+                            </div>
+                            <br/>
+                            <h4 style="text-align:right;">السادة/شركة العملاق التجارية</h4>
+                            <br/>
+
+                            <table style="width:100%">
+                                <tr>
+                                    <td style="width:25%; text-align:right;"/>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>رقم الهوية</h3>
+                                    </td>
+                                    <td style="width:25%; text-align:right;"/>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>اقر انا المدعو</h3>
+                                    </td>
+                                </tr>
+                            </table>
+
+<!--                            <div class="row" style="text-align:right">-->
+<!--                                <div class="col-sm-4">&#160;</div>-->
+<!--                                <div class="col-sm-2">-->
+<!--                                    <h3>رقم الهوية</h3>-->
+<!--                                </div>-->
+<!--                                <div class="col-sm-4">&#160;</div>-->
+<!--                                <div class="col-sm-2">-->
+<!--                                    <h3>اقر انا المدعو</h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            <br/>
+                            <h4 style="text-align:right;">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة</h4>
+                            <br/>
+
+                            <table style="width:100%">
+                                <tr>
+                                    <td style="width:25%; text-align:right;"/>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>هيكل</h3>
+                                    </td>
+                                    <td style="width:25%; text-align:right;"/>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>نوع</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:25%; text-align:right;">
+                                    </td>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>اللون</h3>
+                                    </td>
+                                    <td style="width:25%; text-align:right;">
+
+                                    </td>
+                                    <td style="width:25%; text-align:right;">
+                                        <h3>الموديل</h3>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <br/>
+                            <h4 style="text-align:right;">بأسمي وأصدر اللوحات</h4><br/>
+                            <h4 style="text-align:right;">وهذا إقرار مني بذلك. وأشهدالله على ذلك والله خير الشاهدين</h4><br/>
+                            <h4 style="text-align:right;">التوقيع</h4><br/>
+                            <h4 style="text-align:right;">الجوال</h4>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>

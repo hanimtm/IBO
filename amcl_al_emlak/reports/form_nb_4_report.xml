@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="report_form_nb_4_commitment_of_individuals"
+                model="sale.order"
+                string="Form Nb 4 Commitment Of Individuals"
+                name="amcl_al_emlak.form_nb_4_commitment_of_individuals"
+                file="amcl_al_emlak.form_nb_4_commitment_of_individuals"
+                report_type="qweb-html"/>
+
+        <template id="form_nb_4_commitment_of_individuals">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <h2 style="text-align:center;">بسم الله الرحمن الرحيم</h2>
+                            <br/>
+                            <table style="width:100%">
+                                <tr>
+                                    <td style="width:33%; text-align:right;">
+                                        <h5>...............الرقم</h5>
+                                        <h5>...............التاريخ</h5>
+                                        <h5>...............المشفوعان</h5>
+                                        <h5>...............الموضوع</h5>
+                                    </td>
+                                    <td style="width:33%; text-align:right;">
+                                        <img class="img" src="/amcl_al_emlak/static/src/img/mrour.png"
+                                             style="height:200px;width:300px; text-align:right;"/>
+                                    </td>
+                                    <td style="width:33%; text-align:right;">
+                                        <h5>المملكة العربية السعودية</h5>
+                                        <h5>وزارة الداخلية</h5>
+                                        <h5>الأمن العام</h5>
+                                        <h5>الإدارة العامة للمرور</h5>
+                                        <h5>إدارة مرور محافظة جدة</h5>
+                                        <h5>شعلة الرخص</h5>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <table style="text-align:right; width:100%; border: 1px solid black;">
+                                <tr>
+                                    <td style="text-align:right; width:40%; border: 1px solid black;">
+                                        <h5>رقم الهيكل للتسجيل الجديد فقط</h5>
+                                    </td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">
+                                        <h5>نوع المركبة</h5>
+                                    </td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">
+                                        <h5>نوع التسجيل</h5>
+                                    </td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">
+                                        <h5>رقم اللوحة</h5>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:right; width:40%; border: 1px solid black;">&#160;</td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">&#160;</td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">&#160;</td>
+                                    <td style="text-align:right; width:20%; border: 1px solid black;">&#160;</td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <h2 style="text-align:center;">تعهد للأفراد</h2>
+                            <h5 style="text-align:right;">
+                                أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية
+                                مع مساميرها وأفهمت من قبل المختصين بإدارة مرور محافظة جدة بأن يتم تركيب اللوحات
+                                على المركبة وفق ما هو موضحا في البرشور الإرشادي المسلم لي مع اللوحات وأن مخالفة ذلك
+                                والتركيب
+                                بشكل مخالف لما هو موضح بشكل بالدليل الارشادي يعد مخالفة مني استحق عليها المسألة
+                                القانونية
+                                وما يفرض بحقي نظاما من اجراء لقاء هذه المخالفة وإذا اقر بما ذكر فأنني أتعهد بالإلتزام
+                                التام به والتركيب
+                                وفق ما هو موضح بالدليل الإرشادي المسلم لي وبالمسامير المسلمة مع اللوحة أتحمل كامل
+                                المسئولية عند مخالفة
+                                ذلك ويحق لإدارة المرور أو اي جهة أمنية إخضاعي للمسألة والتحقيق وإتخاذ أي اجراء نظامي
+                                بحقي وعليه جرى التوقيع
+                            </h5>
+                            <hr/>
+                            <br/>
+                            <h4 style="text-align:right;">المقر بما فيه</h4>
+                            <br/>
+                            <h5 style="text-align:right;">الإسم</h5>
+                            <br/>
+                            <h5 style="text-align:right;">الجنسية</h5>
+                            <br/>
+                            <h5 style="text-align:right;">الهاتف</h5>
+                            <br/>
+                            <h5 style="text-align:right;">العنوان</h5>
+                            <br/>
+                            <h5 style="text-align:right;">التوقيع</h5>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>

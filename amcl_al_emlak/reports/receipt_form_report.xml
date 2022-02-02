@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="report_receipt_form"
+                model="sale.order"
+                string="Receipt Form"
+                name="amcl_al_emlak.report_sale_order_receipt_form_view"
+                file="amcl_al_emlak.report_receipt_form"
+                report_type="qweb-html"/>
+
+        <template id="report_sale_order_receipt_form_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page">
+                            <div style="text-align:center;">
+                                <u>
+                                    <h1>معرض العملاق للسيارات</h1>
+                                </u>
+                            </div>
+                            <br/>
+                            <div style="text-align:center;">
+                                <u>
+                                    <h2>navigon مذكرة استلام ذاكرة ميموري</h2>
+                                </u>
+                            </div>
+                            <br/>
+                            <table style="width:100%; text-align:right;">
+                                <tr>
+                                    <td style="width:50%;">
+                                        <h4>بأنني استلمت ذاكرة ميموري لسيارة</h4>
+                                    </td>
+                                    <td style="width:25%;"/>
+                                    <td style="width:25%;">
+                                        <h4>اقر انا السيد</h4>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br/>
+                            <table style="width:100%; text-align:right;">
+                                <tr>
+                                    <td style="width:20%; text-align:right;">
+                                        <h4>هيكل</h4>
+                                    </td>
+                                    <td style="width:20%; text-align:right;">
+                                        <h4>عدد</h4>
+                                    </td>
+                                     <td style="width:20%; text-align:right;">
+                                        <h4>لوحة</h4>
+                                    </td>
+                                     <td style="width:20%; text-align:right;">
+                                        <h4>موديل</h4>
+                                    </td>
+                                    <td style="width:20%; text-align:right;">
+                                        <h4>نوع</h4>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="width:20%; text-align:right;"/>
+                                    <td style="width:20%; text-align:right;"/>
+                                    <td style="width:20%; text-align:right;"/>
+                                    <td style="width:20%; text-align:right;"/>
+                                    <td style="width:20%; text-align:right;"/>
+                                </tr>
+                            </table>
+                            <br/>
+                            <br/>
+                            <h4 style="text-align:right;">
+                                وبذلك تخلي مؤسسة العملاق مسؤوليتها عن هذةالذاكرة وليس لي الحق بالمطالبة بها نهائيا وهذا
+                                اقرار مني بذالك
+                            </h4>
+                            <br/>
+                            <h4 style="text-align:right;">التاريخ</h4>
+                            <br/>
+                            <h4 style="text-align:right;">رقم الجوال</h4>
+                            <br/>
+                            <h4 style="text-align:right;">التوقيع</h4>
+                        </div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>
