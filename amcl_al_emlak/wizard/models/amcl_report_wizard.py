@@ -24,7 +24,7 @@ class AMCLReportingWizard(models.TransientModel):
             'id': self.id,
             'model': 'amcl.reporting.wizard',
         }
-        report_type = 'qweb-html'
+        report_type = 'qweb-pdf'
         report_name = ''
 
         if self.catch_receipt:

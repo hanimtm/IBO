@@ -14,7 +14,7 @@
     'version': '15.0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale', 'sale_management', 'contacts'],
+    'depends': ['base', 'sale', 'sale_management', 'contacts', 'nati_arabic_font'],
 
     # always loaded
     'data': [
