@@ -8,7 +8,7 @@
                 string="Ordinary Confession"
                 name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
                 file="amcl_al_emlak.report_sale_order"
-                report_type="qweb-html"/>
+                report_type="qweb-pdf"/>
 
         <template id="report_sale_order_ordinary_confession_view">
             <t t-call="web.html_container">
@@ -25,56 +25,59 @@
                                 <b style="font-family: Droid Arabic Kufi;">السادة/شركة العملاق التجارية</b>
                             </div>
                             <br/>
-                            <div style="text-align:right;">
-                                <table style="width:100%">
-                                    <tr>
-                                        <td style="width:25%;"/>
-                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
-                                            <b>رقم الهوية</b>
-                                        </td>
-                                        <td style="width:25%; "/>
-                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
-                                            <b>اقر انا المدعو</b>
-                                        </td>
-                                    </tr>
-                                </table>
+                            <!--                            <div style="text-align:right;">-->
+                            <!--                                <table style="width:100%">-->
+                            <!--                                    <tr>-->
+                            <!--                                        <td style="width:25%;"/>-->
+                            <!--                                        <td style="width:25%; font-family: Droid Arabic Kufi;">-->
+                            <!--                                            <b>رقم الهوية</b>-->
+                            <!--                                        </td>-->
+                            <!--                                        <td style="width:25%; "/>-->
+                            <!--                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">-->
+                            <!--                                            <b>اقر انا المدعو</b>-->
+                            <!--                                        </td>-->
+                            <!--                                    </tr>-->
+                            <!--                                </table>-->
+                            <!--                            </div>-->
+
+
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>اقر انا المدعو</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:200px;">
+                                    <b>رقم الهوية</b>
+                                </div>
+
                             </div>
 
                             <br/>
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
-                                <b style=" font-family: Droid Arabic Kufi;">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من
-                                    تسجيل
-                                    السيارة
+                                <b style=" font-family: Droid Arabic Kufi;">
+                                    الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة
                                 </b>
                             </div>
                             <br/>
-                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
-                                <table style="width:100%">
-                                    <tr>
-                                        <td style="width:25%;"/>
-                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
-                                            <b>هيكل</b>
-                                        </td>
-                                        <td style="width:25%;"/>
-                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
-                                            <b>نوع</b>
-                                        </td>
-                                    </tr>
-                                    <br/>
-                                    <tr>
-                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
-                                        </td>
-                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
-                                            <b>اللون</b>
-                                        </td>
-                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>نوع</b>
+                                </div>
 
-                                        </td>
-                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
-                                            <b>الموديل</b>
-                                        </td>
-                                    </tr>
-                                </table>
+                                <div style="display:inline; width:50%; margin-right:238px;">
+                                    <b>هيكل</b>
+                                </div>
+
+                            </div>
+                            <br/>
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>الموديل</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:200px;">
+                                    <b>اللون</b>
+                                </div>
                             </div>
                             <br/>
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
