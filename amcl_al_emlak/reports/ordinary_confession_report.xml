@@ -8,139 +8,95 @@
                 string="Ordinary Confession"
                 name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
                 file="amcl_al_emlak.report_sale_order"
-                report_type="qweb-pdf"/>
+                report_type="qweb-html"/>
 
         <template id="report_sale_order_ordinary_confession_view">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page">
-                            <div style="text-align:center;">
+                            <div style="text-align:center; font-family: Droid Arabic Kufi;">
                                 <u>
-                                    <h1>إقرار</h1>
+                                    <b style="font-size:30px;">إقرار</b>
                                 </u>
                             </div>
                             <br/>
-                            <h4 style="">السادة/شركة العملاق التجارية</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style="font-family: Droid Arabic Kufi;">السادة/شركة العملاق التجارية</b>
+                            </div>
                             <br/>
-
-                            <table style="width:100%">
-                                <tr>
-                                    <td style="width:25%; "/>
-                                    <td style="width:25%; ">
-                                        <h4>رقم الهوية</h4>
-                                    </td>
-                                    <td style="width:25%; "/>
-                                    <td style="width:25%; ">
-                                        <h4>اقر انا المدعو</h4>
-                                    </td>
-                                </tr>
-                            </table>
-
-                            <br/>
-                            <h4 style="">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة</h4>
-                            <br/>
-
-                            <table style="width:100%">
-                                <tr>
-                                    <td style="width:25%; "/>
-                                    <td style="width:25%; ">
-                                        <h4>هيكل</h4>
-                                    </td>
-                                    <td style="width:25%; "/>
-                                    <td style="width:25%;">
-                                        <h4>نوع</h4>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="width:25%; ">
-                                    </td>
-                                    <td style="width:25%; ">
-                                        <h4>اللون</h4>
-                                    </td>
-                                    <td style="width:25%; ">
-
-                                    </td>
-                                    <td style="width:25%; ">
-                                        <h4>الموديل</h4>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div style="text-align:right;">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="width:25%;"/>
+                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
+                                            <b>رقم الهوية</b>
+                                        </td>
+                                        <td style="width:25%; "/>
+                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
+                                            <b>اقر انا المدعو</b>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
 
                             <br/>
-                            <h4 style="">بأسمي وأصدر اللوحات</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style=" font-family: Droid Arabic Kufi;">"الموضحة بياناتي أعلاه بأنه لا مانع لدي من
+                                    تسجيل
+                                    السيارة
+                                </b>
+                            </div>
                             <br/>
-                            <h4 style="">وهذا إقرار مني بذلك. وأشهدالله على ذلك والله خير الشاهدين</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td style="width:25%;"/>
+                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
+                                            <b>هيكل</b>
+                                        </td>
+                                        <td style="width:25%;"/>
+                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
+                                            <b>نوع</b>
+                                        </td>
+                                    </tr>
+                                    <br/>
+                                    <tr>
+                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
+                                        </td>
+                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
+                                            <b>اللون</b>
+                                        </td>
+                                        <td style="width:25%; font-family: Droid Arabic Kufi;">
+
+                                        </td>
+                                        <td style="width:25%;  font-family: Droid Arabic Kufi;">
+                                            <b>الموديل</b>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                             <br/>
-                            <h4 style="">التوقيع</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style="font-family: Droid Arabic Kufi;">بأسمي وأصدر اللوحات</b>
+
+                            </div>
                             <br/>
-                            <h4 style="">الجوال</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style="font-family: Droid Arabic Kufi;">وهذا إقرار مني بذلك, وأشهدالله على ذلك والله
+                                    خير
+                                    الشاهدين
+                                </b>
+                            </div>
+                            <br/>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style="font-family: Droid Arabic Kufi;">التوقيع</b>
+                            </div>
+                            <br/>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b style="font-family: Droid Arabic Kufi;">الجوال</b>
+                            </div>
                         </div>
-                        <!--                            <div style="text-align:center;">-->
-                        <!--                                <u>-->
-                        <!--                                    <h1>Endorsement</h1>-->
-                        <!--                                </u>-->
-                        <!--                            </div>-->
-                        <!--                            <br/>-->
-                        <!--                            <b style="">Gentlemen/ Al Emlak Trading Company</b>-->
-                        <!--                            <br/>-->
-
-                        <!--                            <table style="width:100%">-->
-                        <!--                                <tr>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>I admit I am invited</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;"/>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>ID Number</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;"/>-->
-
-                        <!--                                </tr>-->
-                        <!--                            </table>-->
-
-                        <!--                            <br/>-->
-                        <!--                            <b style="">My details above show that I have no objection to registering the car </b>-->
-                        <!--                            <br/>-->
-
-                        <!--                            <table style="width:100%">-->
-                        <!--                                <tr>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>Type</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;"/>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>structure</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;"/>-->
-
-                        <!--                                </tr>-->
-                        <!--                                <tr>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>Model</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;">-->
-                        <!--                                        <b>Color</b>-->
-                        <!--                                    </td>-->
-                        <!--                                    <td style="width:25%;">-->
-
-                        <!--                                    </td>-->
-
-                        <!--                                </tr>-->
-                        <!--                            </table>-->
-
-                        <!--                            <br/>-->
-                        <!--                            <b style="">In my name and issued the paintings</b>-->
-                        <!--                            <br/>-->
-                        <!--                            <b style="">This is my acknowledgment of that. And God is my witness to that, and God is the best of witnesses</b>-->
-                        <!--                            <br/>-->
-                        <!--                            <b style="">Signature</b>-->
-                        <!--                            <br/>-->
-                        <!--                            <b style="">Mobile</b>-->
-
-                        <!--                        </div>-->
                     </t>
                 </t>
             </t>
