@@ -35,7 +35,7 @@
                             <h2 style="text-align:center; font-family: Droid Arabic Kufi;">بسم الله الرحمن الرحيم</h2>
                             <br/>
                             <table style="width:100%">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:33%; text-align:right; font-family: Droid Arabic Kufi;">
                                         <b>...................الرقم</b>
                                         <br/>
@@ -88,7 +88,11 @@
                                 </tr>
                             </table>
                             <br/>
-                            <b style="text-align:center; font-family: Droid Arabic Kufi;">تعهد للأفراد</b>
+                            <div style="text-align:center; font-family: Droid Arabic Kufi; font-size:20px;">
+                                <u>
+                                    <b>تعهد للأفراد</b>
+                                </u>
+                            </div>
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
                                 <b>
                                     أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية
@@ -111,13 +115,18 @@
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
                                 <b>المقر بما فيه</b>
                                 <br/>
+                                <br/>
                                 <b>الإسم</b>
+                                <br/>
                                 <br/>
                                 <b>الجنسية</b>
                                 <br/>
+                                <br/>
                                 <b>الهاتف</b>
                                 <br/>
+                                <br/>
                                 <b>العنوان</b>
+                                <br/>
                                 <br/>
                                 <b>التوقيع</b>
                             </div>
