@@ -12,8 +12,7 @@
                             <field name="sale_order_id"/>
 <!--                            <field name="sale_order_state" invisible="1"/>-->
 
-                            <field name="type_report" required="1" widget="radio"
-                                   attrs="{'invisible': [('catch_receipt', '=', True)]}"/>
+                            <field name="type_report" required="1" widget="radio"/>
 <!--                            <field name="catch_receipt"/>-->
 <!--                             attrs="{'invisible': [('sale_order_state', '!=', 'done')]}"-->
                         </group>
