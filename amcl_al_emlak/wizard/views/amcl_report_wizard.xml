@@ -9,7 +9,7 @@
                 <form string="amcl_report_wizard_form">
                     <sheet>
                         <group>
-                            <field name="sale_order_id"/>
+                            <field name="sale_order_id" readonly="1"/>
 <!--                            <field name="sale_order_state" invisible="1"/>-->
 
                             <field name="type_report" required="1" widget="radio"/>
