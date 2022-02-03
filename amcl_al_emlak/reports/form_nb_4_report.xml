@@ -37,22 +37,22 @@
                             <table style="width:100%">
                                 <tr>
                                     <td style="width:33%; text-align:right;">
-                                        <h5>...............الرقم</h5>
-                                        <h5>...............التاريخ</h5>
-                                        <h5>...............المشفوعان</h5>
-                                        <h5>...............الموضوع</h5>
+                                        <b>...............الرقم</b>
+                                        <b>...............التاريخ</b>
+                                        <b>...............المشفوعان</b>
+                                        <b>...............الموضوع</b>
                                     </td>
                                     <td style="width:33%; text-align:right;">
                                         <img class="img" src="/amcl_al_emlak/static/src/img/mrour.png"
                                              style="height:200px;width:300px; text-align:right;"/>
                                     </td>
                                     <td style="width:33%; text-align:right;">
-                                        <h5>المملكة العربية السعودية</h5>
-                                        <h5>وزارة الداخلية</h5>
-                                        <h5>الأمن العام</h5>
-                                        <h5>الإدارة العامة للمرور</h5>
-                                        <h5>إدارة مرور محافظة جدة</h5>
-                                        <h5>شعلة الرخص</h5>
+                                        <b>المملكة العربية السعودية</b>
+                                        <b>وزارة الداخلية</b>
+                                        <b>الأمن العام</b>
+                                        <b>الإدارة العامة للمرور</b>
+                                        <b>إدارة مرور محافظة جدة</b>
+                                        <b>شعلة الرخص</b>
                                     </td>
                                 </tr>
                             </table>
@@ -60,16 +60,16 @@
                             <table style="text-align:right; width:100%; border: 1px solid black;">
                                 <tr>
                                     <td style="text-align:right; width:40%; border: 1px solid black;">
-                                        <h5>رقم الهيكل للتسجيل الجديد فقط</h5>
+                                        <b>رقم الهيكل للتسجيل الجديد فقط</b>
                                     </td>
                                     <td style="text-align:right; width:20%; border: 1px solid black;">
-                                        <h5>نوع المركبة</h5>
+                                        <b>نوع المركبة</b>
                                     </td>
                                     <td style="text-align:right; width:20%; border: 1px solid black;">
-                                        <h5>نوع التسجيل</h5>
+                                        <b>نوع التسجيل</b>
                                     </td>
                                     <td style="text-align:right; width:20%; border: 1px solid black;">
-                                        <h5>رقم اللوحة</h5>
+                                        <b>رقم اللوحة</b>
                                     </td>
                                 </tr>
                                 <tr>
@@ -80,8 +80,8 @@
                                 </tr>
                             </table>
                             <br/>
-                            <h2 style="text-align:center;">تعهد للأفراد</h2>
-                            <h5 style="text-align:right;">
+                            <b style="text-align:center;">تعهد للأفراد</b>
+                            <b style="text-align:right;">
                                 أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية
                                 مع مساميرها وأفهمت من قبل المختصين بإدارة مرور محافظة جدة بأن يتم تركيب اللوحات
                                 على المركبة وفق ما هو موضحا في البرشور الإرشادي المسلم لي مع اللوحات وأن مخالفة ذلك
@@ -94,20 +94,20 @@
                                 المسئولية عند مخالفة
                                 ذلك ويحق لإدارة المرور أو اي جهة أمنية إخضاعي للمسألة والتحقيق وإتخاذ أي اجراء نظامي
                                 بحقي وعليه جرى التوقيع
-                            </h5>
+                            </b>
                             <hr/>
                             <br/>
-                            <h4 style="text-align:right;">المقر بما فيه</h4>
+                            <b style="text-align:right;">المقر بما فيه</b>
                             <br/>
-                            <h5 style="text-align:right;">الإسم</h5>
+                            <b style="text-align:right;">الإسم</b>
                             <br/>
-                            <h5 style="text-align:right;">الجنسية</h5>
+                            <b style="text-align:right;">الجنسية</b>
                             <br/>
-                            <h5 style="text-align:right;">الهاتف</h5>
+                            <b style="text-align:right;">الهاتف</b>
                             <br/>
-                            <h5 style="text-align:right;">العنوان</h5>
+                            <b style="text-align:right;">العنوان</b>
                             <br/>
-                            <h5 style="text-align:right;">التوقيع</h5>
+                            <b style="text-align:right;">التوقيع</b>
                         </div>
                     </t>
                 </t>
