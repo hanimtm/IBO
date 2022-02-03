@@ -37,13 +37,13 @@
                             <table style="width:100%">
                                 <tr style="background-color:#ffffff;">
                                     <td style="width:33%; text-align:right; font-family: Droid Arabic Kufi;">
-                                        <b>...................الرقم</b>
+                                        <b>......................الرقم</b>
                                         <br/>
-                                        <b>.................التاريخ</b>
+                                        <b>.....................التاريخ</b>
                                         <br/>
                                         <b>...............المشفوعان</b>
                                         <br/>
-                                        <b>.................الموضوع</b>
+                                        <b>....................الموضوع</b>
                                     </td>
                                     <td style="width:33%; text-align:right;">
                                         <img class="img" src="/amcl_al_emlak/static/src/img/mrour.png"
@@ -93,6 +93,7 @@
                                     <b>تعهد للأفراد</b>
                                 </u>
                             </div>
+                            <br/>
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
                                 <b>
                                     أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية

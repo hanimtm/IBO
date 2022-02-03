@@ -6,9 +6,9 @@
             <field name="model">sale.order</field>
             <field name="inherit_id" ref="sale.view_order_form"/>
             <field name="arch" type="xml">
-                <xpath expr="//header/button[@name='action_draft']" position="after">
+                <xpath expr="//header/button[@name='action_quotation_send']" position="before">
                     <!-- Add your fields or attributes here -->
-                    <button name="btn_show_wizard_print" class="btn btn-success"
+                    <button name="btn_show_wizard_print" class="btn btn-primary"
                             type="object" string="Print Report"/>
                 </xpath>
             </field>
