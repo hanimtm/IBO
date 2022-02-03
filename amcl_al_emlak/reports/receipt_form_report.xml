@@ -15,68 +15,70 @@
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page">
-                            <div style="text-align:center;">
+                            <div style="text-align:center; font-family: Droid Arabic Kufi;">
                                 <u>
-                                    <h1>معرض العملاق للسيارات</h1>
+                                    <b style="font-size:25px;">معرض العملاق للسيارات</b>
                                 </u>
                             </div>
                             <br/>
-                            <div style="text-align:center;">
+                            <div style="text-align:center; font-family: Droid Arabic Kufi;">
                                 <u>
-                                    <h2>navigon مذكرة استلام ذاكرة ميموري</h2>
+                                    <b style="font-size:25px;">navigon مذكرة استلام ذاكرة ميموري</b>
                                 </u>
                             </div>
                             <br/>
-                            <table style="width:100%; text-align:right;">
-                                <tr>
-                                    <td style="width:50%;">
-                                        <h4>بأنني استلمت ذاكرة ميموري لسيارة</h4>
-                                    </td>
-                                    <td style="width:25%;"/>
-                                    <td style="width:25%;">
-                                        <h4>اقر انا السيد</h4>
-                                    </td>
-                                </tr>
-                            </table>
                             <br/>
-                            <table style="width:100%; text-align:right;">
-                                <tr>
-                                    <td style="width:20%; text-align:right;">
-                                        <h4>هيكل</h4>
-                                    </td>
-                                    <td style="width:20%; text-align:right;">
-                                        <h4>عدد</h4>
-                                    </td>
-                                     <td style="width:20%; text-align:right;">
-                                        <h4>لوحة</h4>
-                                    </td>
-                                     <td style="width:20%; text-align:right;">
-                                        <h4>موديل</h4>
-                                    </td>
-                                    <td style="width:20%; text-align:right;">
-                                        <h4>نوع</h4>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:20%; text-align:right;"/>
-                                </tr>
-                            </table>
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>اقر انا المدعو</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:250px;">
+                                    <b>بأنني استلمت ذاكرة ميموري لسيارة</b>
+                                </div>
+                            </div>
+
                             <br/>
                             <br/>
-                            <h4 style="text-align:right;">
-                                وبذلك تخلي مؤسسة العملاق مسؤوليتها عن هذةالذاكرة وليس لي الحق بالمطالبة بها نهائيا وهذا
-                                اقرار مني بذالك
-                            </h4>
+
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:25%;">
+                                    <b>نوع</b>
+                                </div>
+                                <div style="display:inline; width:20%; margin-right:100;">
+                                    <b>موديل</b>
+                                </div>
+                                <div style="display:inline; width:20%; margin-right:100px;">
+                                    <b>لوحة</b>
+                                </div>
+                                <div style="display:inline; width:20%; margin-right:100px;">
+                                    <b>عدد</b>
+                                </div>
+                                <div style="display:inline; width:20%; margin-right:100px;">
+                                    <b>هيكل</b>
+                                </div>
+                            </div>
                             <br/>
-                            <h4 style="text-align:right;">التاريخ</h4>
                             <br/>
-                            <h4 style="text-align:right;">رقم الجوال</h4>
                             <br/>
-                            <h4 style="text-align:right;">التوقيع</h4>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>
+                                  <br/>  وبذلك تخلي مؤسسة العملاق مسؤوليتها عن هذة الذاكرة وليس لي الحق بالمطالبة بها نهائيا
+                                    وهذااقرار مني بذالك
+                                </b>
+                            </div>
+                            <br/>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>التاريخ</b>
+                            </div>
+                            <br/>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>رقم الجوال</b>
+                            </div>
+                            <br/>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>التوقيع</b>
+                            </div>
                         </div>
                     </t>
                 </t>

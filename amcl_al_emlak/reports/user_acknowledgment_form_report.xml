@@ -15,76 +15,54 @@
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page">
-<!--                            <table style="width:100%">-->
-<!--                                <tr>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <h1>ALEMLAQ TRADING Co.</h1>-->
-<!--                                        <h4>C.R: 4030014074</h4>-->
-<!--                                    </td>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <img class="img" src="/amcl_al_emlak/static/src/img/logo.png"-->
-<!--                                             style="height:200px;width:300px;"/>-->
-<!--                                    </td>-->
-<!--                                    <td style="width:33%">-->
-<!--                                        <h1>شركة العملاق التجارية</h1>-->
-<!--                                        <h4>س.ت: 4030014074</h4>-->
-<!--                                    </td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                            <br/>-->
-
-                            <div style="text-align:center">
-                                <h3>اقرار مستخدم</h3>
+                            <div style="text-align:center font-family: Droid Arabic Kufi;">
+                                <u><b style="font-size:30px;">اقرار مستخدم</b></u>
                             </div>
                             <br/>
 
-                            <table style="width:100%">
-                                <tr>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h3>رقم الهوية</h3>
-                                    </td>
-                                    <td style="width:25%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h3>اقر انا المدعو</h3>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>اقر انا المدعو</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:255px;">
+                                    <b>رقم الهوية</b>
+                                </div>
+
+                            </div>
 
                             <br/>
-                            <div style="text-align:right">
-                                <h3>بأنني ارغب باضافتي مستخدم فعلي للمركبة</h3>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>بأنني ارغب باضافتي مستخدم فعلي للمركبة</b>
                             </div>
                             <br/>
 
-                            <table style="width:100%">
-                                <tr>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:25%; text-align:right;">
-                                        <h3>والتي بإسم</h3>
-                                    </td>
-                                    <td style="width:20%; text-align:right;"/>
-                                    <td style="width:35%; text-align:right;">
-                                        <h3>رقم البطاقة الجمركية</h3>
-                                    </td>
-                                </tr>
-                            </table>
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:50%;">
+                                    <b>رقم البطاقة الجمركية</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:200px;">
+                                    <b>والتي بإسم</b>
+                                </div>
+
+                            </div>
 
                             <br/>
-                            <div style="text-align:right">
-                                <h3>وهذا اقرار مني بذلك</h3>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>وهذا اقرار مني بذلك</b>
                             </div>
                             <br/>
-                            <div style="text-align:right">
-                                <h3>الاسم</h3>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>الاسم</b>
                             </div>
                             <br/>
-                            <div style="text-align:right">
-                                <h3>التوقيع</h3>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>التوقيع</b>
                             </div>
                             <br/>
-                            <div style="text-align:right">
-                                <h3>الجوال</h3>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>الجوال</b>
                             </div>
                         </div>
                     </t>
