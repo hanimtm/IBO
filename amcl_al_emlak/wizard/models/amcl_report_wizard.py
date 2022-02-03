@@ -27,10 +27,10 @@ class AMCLReportingWizard(models.TransientModel):
         report_type = 'qweb-pdf'
         report_name = ''
 
-        if self.catch_receipt:
-            report_name += 'amcl_al_emlak.report_catch_receipt_report_view'
+        # if self.catch_receipt:
+        #     report_name += 'amcl_al_emlak.report_catch_receipt_report_view'
 
-        elif str(self.type_report) == "form_receipt":
+        if str(self.type_report) == "form_receipt":
             report_name += 'amcl_al_emlak.report_sale_order_receipt_form_view'
 
         elif self.type_report == 'normal_confession':
