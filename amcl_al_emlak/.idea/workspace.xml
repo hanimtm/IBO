@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cdeff28-ad85-40a5-b4ad-e631caf7b870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/reports/form_nb_4_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/form_nb_4_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5cdeff28-ad85-40a5-b4ad-e631caf7b870" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +20,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
+        <entry file="file://$PROJECT_DIR$/reports/form_nb_4_report.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state relative-caret-position="792">
+              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -345,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/receipt_form_report.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="24" column="90" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/user_acknowledgment_form_report.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-295">
@@ -366,10 +356,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/form_nb_4_report.xml">
+    <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/receipt_form_report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="24" column="90" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="90" />
         </state>
       </provider>
     </entry>
@@ -380,10 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
+    <entry file="file://$PROJECT_DIR$/reports/form_nb_4_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        <state relative-caret-position="792">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
         </state>
       </provider>
     </entry>
