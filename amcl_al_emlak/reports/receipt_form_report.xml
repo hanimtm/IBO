@@ -8,7 +8,8 @@
                 string="Receipt Form"
                 name="amcl_al_emlak.report_sale_order_receipt_form_view"
                 file="amcl_al_emlak.report_receipt_form"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                attachment_use="False"/>
 
         <template id="report_sale_order_receipt_form_view">
             <t t-call="web.html_container">
@@ -63,7 +64,8 @@
                             <br/>
                             <div style="text-align:right; font-family: Droid Arabic Kufi;">
                                 <b>
-                                  <br/>  وبذلك تخلي مؤسسة العملاق مسؤوليتها عن هذة الذاكرة وليس لي الحق بالمطالبة بها نهائيا
+                                    <br/>
+                                    وبذلك تخلي مؤسسة العملاق مسؤوليتها عن هذة الذاكرة وليس لي الحق بالمطالبة بها نهائيا
                                     وهذااقرار مني بذالك
                                 </b>
                             </div>

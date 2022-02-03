@@ -8,7 +8,8 @@
                 string="Ordinary Confession"
                 name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
                 file="amcl_al_emlak.report_sale_order"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                attachment_use="False"/>
 
         <template id="report_sale_order_ordinary_confession_view">
             <t t-call="web.html_container">

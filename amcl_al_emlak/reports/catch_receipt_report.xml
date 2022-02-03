@@ -4,7 +4,7 @@
 
         <report
                 id="report_catch_receipt_report"
-                model="sale.order"
+                model="account.payment"
                 string="Catch Receipt"
                 name="amcl_al_emlak.report_catch_receipt_report_view"
                 file="amcl_al_emlak.report_catch_receipt_report"

@@ -8,7 +8,8 @@
                 string="User Acknowledgment Form"
                 name="amcl_al_emlak.report_user_acknowledgment_form_view"
                 file="amcl_al_emlak.report_user_acknowledgment_form_report"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                attachment_use="False"/>
 
         <template id="report_user_acknowledgment_form_view">
             <t t-call="web.html_container">
@@ -16,7 +17,9 @@
                     <t t-call="web.external_layout">
                         <div class="page">
                             <div style="text-align:center font-family: Droid Arabic Kufi;">
-                                <u><b style="font-size:30px;">اقرار مستخدم</b></u>
+                                <u>
+                                    <b style="font-size:30px;">اقرار مستخدم</b>
+                                </u>
                             </div>
                             <br/>
 
