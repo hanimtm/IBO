@@ -8,7 +8,7 @@ class AMCLReportingWizard(models.TransientModel):
     _name = 'amcl.reporting.wizard'
 
     sale_order_id = fields.Many2one(comodel_name='sale.order', string='Sale Order')
-    sale_order_state = fields.Selection(related='sale_order_id.state')
+    # sale_order_state = fields.Selection(related='sale_order_id.state')
 
     type_report = fields.Selection([('normal_confession', 'اقرار عادي'),
                                     ('form_receipt', 'نموذج استلام'),
@@ -16,7 +16,7 @@ class AMCLReportingWizard(models.TransientModel):
                                     ('user_acknowledgment_form', 'نموذج إقرار المستخدم')],
                                    string='Chose Report Type', default='normal_confession')
 
-    catch_receipt = fields.Boolean(string='Catch Receipt', default=False)
+    # catch_receipt = fields.Boolean(string='Catch Receipt', default=False)
 
     def button_print_report_ordinary_confession_pdf(self):
         self.ensure_one()
