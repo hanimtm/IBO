@@ -32,32 +32,40 @@
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page">
-                            <h2 style="text-align:center;">بسم الله الرحمن الرحيم</h2>
+                            <h2 style="text-align:center; font-family: Droid Arabic Kufi;">بسم الله الرحمن الرحيم</h2>
                             <br/>
                             <table style="width:100%">
                                 <tr>
-                                    <td style="width:33%; text-align:right;">
-                                        <b>...............الرقم</b><br/>
-                                        <b>...............التاريخ</b><br/>
-                                        <b>...............المشفوعان</b><br/>
-                                        <b>...............الموضوع</b>
+                                    <td style="width:33%; text-align:right; font-family: Droid Arabic Kufi;">
+                                        <b>...................الرقم</b>
+                                        <br/>
+                                        <b>.................التاريخ</b>
+                                        <br/>
+                                        <b>...............المشفوعان</b>
+                                        <br/>
+                                        <b>.................الموضوع</b>
                                     </td>
                                     <td style="width:33%; text-align:right;">
                                         <img class="img" src="/amcl_al_emlak/static/src/img/mrour.png"
                                              style="height:200px;width:300px; text-align:right;"/>
                                     </td>
-                                    <td style="width:33%; text-align:right;">
-                                        <b>المملكة العربية السعودية</b><br/>
-                                        <b>وزارة الداخلية</b><br/>
-                                        <b>الأمن العام</b><br/>
-                                        <b>الإدارة العامة للمرور</b><br/>
-                                        <b>إدارة مرور محافظة جدة</b><br/>
+                                    <td style="width:33%; text-align:right; font-family: Droid Arabic Kufi;">
+                                        <b>المملكة العربية السعودية</b>
+                                        <br/>
+                                        <b>وزارة الداخلية</b>
+                                        <br/>
+                                        <b>الأمن العام</b>
+                                        <br/>
+                                        <b>الإدارة العامة للمرور</b>
+                                        <br/>
+                                        <b>إدارة مرور محافظة جدة</b>
+                                        <br/>
                                         <b>شعبة الرخص</b>
                                     </td>
                                 </tr>
                             </table>
                             <br/>
-                            <table style="text-align:right; width:100%; border: 1px solid black;">
+                            <table style="text-align:right; width:100%; border: 1px solid black; font-family: Droid Arabic Kufi;">
                                 <tr>
                                     <td style="text-align:right; width:40%; border: 1px solid black;">
                                         <b>رقم الهيكل للتسجيل الجديد فقط</b>
@@ -80,34 +88,39 @@
                                 </tr>
                             </table>
                             <br/>
-                            <b style="text-align:center;">تعهد للأفراد</b>
-                            <b style="text-align:right;">
-                                أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية
-                                مع مساميرها وأفهمت من قبل المختصين بإدارة مرور محافظة جدة بأن يتم تركيب اللوحات
-                                على المركبة وفق ما هو موضحا في البرشور الإرشادي المسلم لي مع اللوحات وأن مخالفة ذلك
-                                والتركيب
-                                بشكل مخالف لما هو موضح بشكل بالدليل الارشادي يعد مخالفة مني استحق عليها المسألة
-                                القانونية
-                                وما يفرض بحقي نظاما من اجراء لقاء هذه المخالفة وإذا اقر بما ذكر فأنني أتعهد بالإلتزام
-                                التام به والتركيب
-                                وفق ما هو موضح بالدليل الإرشادي المسلم لي وبالمسامير المسلمة مع اللوحة أتحمل كامل
-                                المسئولية عند مخالفة
-                                ذلك ويحق لإدارة المرور أو اي جهة أمنية إخضاعي للمسألة والتحقيق وإتخاذ أي اجراء نظامي
-                                بحقي وعليه جرى التوقيع
-                            </b>
+                            <b style="text-align:center; font-family: Droid Arabic Kufi;">تعهد للأفراد</b>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>
+                                    أقر انا المحرر هويتي أدناه بانني استلمت لوحات سيارتي الموضحة بياناتها بعالية
+                                    مع مساميرها وأفهمت من قبل المختصين بإدارة مرور محافظة جدة بأن يتم تركيب اللوحات
+                                    على المركبة وفق ما هو موضحا في البرشور الإرشادي المسلم لي مع اللوحات وأن مخالفة ذلك
+                                    والتركيب
+                                    بشكل مخالف لما هو موضح بشكل بالدليل الارشادي يعد مخالفة مني استحق عليها المسألة
+                                    القانونية
+                                    وما يفرض بحقي نظاما من اجراء لقاء هذه المخالفة وإذا اقر بما ذكر فأنني أتعهد
+                                    بالإلتزام
+                                    التام به والتركيب
+                                    وفق ما هو موضح بالدليل الإرشادي المسلم لي وبالمسامير المسلمة مع اللوحة أتحمل كامل
+                                    المسئولية عند مخالفة
+                                    ذلك ويحق لإدارة المرور أو اي جهة أمنية إخضاعي للمسألة والتحقيق وإتخاذ أي اجراء نظامي
+                                    بحقي وعليه جرى التوقيع
+                                </b>
+                            </div>
                             <hr/>
                             <br/>
-                            <b style="text-align:right;">المقر بما فيه</b>
-                            <br/>
-                            <b style="text-align:right;">الإسم</b>
-                            <br/>
-                            <b style="text-align:right;">الجنسية</b>
-                            <br/>
-                            <b style="text-align:right;">الهاتف</b>
-                            <br/>
-                            <b style="text-align:right;">العنوان</b>
-                            <br/>
-                            <b style="text-align:right;">التوقيع</b>
+                            <div style="text-align:right; font-family: Droid Arabic Kufi;">
+                                <b>المقر بما فيه</b>
+                                <br/>
+                                <b>الإسم</b>
+                                <br/>
+                                <b>الجنسية</b>
+                                <br/>
+                                <b>الهاتف</b>
+                                <br/>
+                                <b>العنوان</b>
+                                <br/>
+                                <b>التوقيع</b>
+                            </div>
                         </div>
                     </t>
                 </t>
