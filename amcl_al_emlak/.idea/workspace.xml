@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cdeff28-ad85-40a5-b4ad-e631caf7b870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/amcl_payment_inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/amcl_payment_inherit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/amcl_payment_inherit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +22,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/amcl_payment_inherit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="154">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/amcl_payment_inherit.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -39,6 +58,7 @@
         <option value="Python Script" />
         <option value="OdooViewReport" />
         <option value="OdooInit" />
+        <option value="OdooViewBasic" />
       </list>
     </option>
   </component>
@@ -83,11 +103,12 @@
         <option value="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" />
         <option value="$PROJECT_DIR$/wizard/views/amcl_report_wizard.xml" />
         <option value="$PROJECT_DIR$/reports/user_acknowledgment_form_report.xml" />
-        <option value="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" />
         <option value="$PROJECT_DIR$/reports/form_nb_4_report.xml" />
         <option value="$PROJECT_DIR$/reports/catch_receipt_report.xml" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/models/amcl_payment_inherit.py" />
+        <option value="$PROJECT_DIR$/views/amcl_sale_order_inherit.xml" />
+        <option value="$PROJECT_DIR$/views/amcl_payment_inherit.xml" />
       </list>
     </option>
   </component>
@@ -182,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultOdooModelFileTemplate" value="OdooInit" />
-    <property name="DefaultOdooViewFileTemplate" value="OdooViewReport" />
+    <property name="DefaultOdooViewFileTemplate" value="OdooViewBasic" />
     <property name="last_opened_file_path" value="A:/My Data/oct 11/addons" />
   </component>
   <component name="RecentsManager">
@@ -353,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/receipt_form_report.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -398,10 +412,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/amcl_sale_order_inherit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/amcl_payment_inherit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/amcl_payment_inherit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
         </state>
       </provider>
     </entry>

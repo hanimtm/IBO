@@ -20,6 +20,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/amcl_sale_order_inherit.xml',
+        'views/amcl_payment_inherit.xml',
 
         'reports/ordinary_confession_report.xml',
         'reports/receipt_form_report.xml',
