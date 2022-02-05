@@ -48,11 +48,11 @@
 
                             <table style="width:100%; text-align:right">
                                 <tr>
-                                    <td style="width:33%; text-align:left">Date:</td>
+                                    <td style="width:33%; text-align:left">Date: <span t-field="doc.date"/></td>
                                     <td style="width:33%; text-align:center">
                                         <b>سند قبض</b>
                                         <br/>
-                                        <b>No....................................................................رقم</b>
+                                        <b>No <span t-field="docs.name"/>رقم</b>
                                     </td>
                                     <td style="width:33%; text-align:right">
                                         <table style="width:100% ; text-align:right">
@@ -63,7 +63,7 @@
                                             <tr>
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px; width:50%;">
-                                                        &#160;
+                                                        <span t-field="doc.amount"/>
                                                     </div>
                                                 </td>
                                                 <td style="width:50% ; text-align:center">
@@ -86,7 +86,7 @@
                                     </td>
                                     <td style="width:50%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
-                                            .....................................................
+                                            <span t-field="o.partner_id.name"/>
                                         </div>
                                     </td>
 
@@ -136,7 +136,7 @@
                                 <tr>
                                     <td style="width:75%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
-                                            .....................................................
+                                            <span t-field="doc.journal_id.name"/>
                                         </div>
                                     </td>
 
