@@ -32,7 +32,7 @@
                     <t t-call="web.external_layout">
 
                         <table style="width:100%; background-color:#ffffff;">
-                            <tr>
+                            <tr style="background-color:#ffffff;">
                                 <td style="text-align:center">
                                     <img class="img" src="/amcl_al_emlak/static/src/img/emlak_pic.PNG"
                                          style="height:150px;width:250px; text-align:right;"/>
@@ -47,7 +47,7 @@
                         <div class="page" style="border-style:solid; border-radius:10px; text-align:right">
 
                             <table style="width:100%; text-align:right">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:33%; text-align:left">Date: <span t-field="doc.date"/></td>
                                     <td style="width:33%; text-align:center">
                                         <b>سند قبض</b>
@@ -78,20 +78,20 @@
                             </table>
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             ................................................
                                         </div>
                                     </td>
                                     <td style="width:50%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             <span t-field="doc.partner_id.name"/>
                                         </div>
                                     </td>
 
                                     <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             إستلمنا من السادة
                                         </div>
                                     </td>
@@ -99,15 +99,15 @@
                             </table>
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             .....................................................
                                         </div>
                                     </td>
 
                                     <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             مبلغ وقدره
                                         </div>
                                     </td>
@@ -116,15 +116,15 @@
 
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             .....................................................
                                         </div>
                                     </td>
 
                                     <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             وذلك عن طريق
                                         </div>
                                     </td>
@@ -133,15 +133,15 @@
 
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             <span t-field="doc.journal_id.name"/>
                                         </div>
                                     </td>
 
                                     <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:30px;">
+                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                             طريقة الدفع
                                         </div>
                                     </td>
@@ -149,7 +149,7 @@
                             </table>
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:33%; text-align:center">المدير المالي</td>
                                     <td style="width:33%; text-align:center">المحاسب</td>
                                     <td style="width:33%; text-align:center">أمين الصندوق</td>
