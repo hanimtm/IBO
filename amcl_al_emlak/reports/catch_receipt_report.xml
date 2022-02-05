@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
-    <record id="paperformat_catch_receipt_without_header_and_footer_report"
+        <record id="paperformat_catch_receipt_without_header_and_footer_report"
                 model="report.paperformat">
             <field name="name">A4 Without header and footer</field>
             <field name="format">A4</field>
@@ -48,19 +48,24 @@
 
                             <table style="width:100%; text-align:right">
                                 <tr style="background-color:#ffffff;">
-                                    <td style="width:33%; text-align:left">Date: <span t-field="doc.date"/></td>
+                                    <td style="width:33%; text-align:left">Date:
+                                        <span t-field="doc.date"/>
+                                    </td>
                                     <td style="width:33%; text-align:center">
                                         <b>سند قبض</b>
                                         <br/>
-                                        <b> No <span t-field="docs.name"/> رقم </b>
+                                        <b>No
+                                            <span t-field="docs.name"/>
+                                            رقم
+                                        </b>
                                     </td>
                                     <td style="width:33%; text-align:right">
                                         <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                            <tr>
+                                            <tr style="background-color:#ffffff;">
                                                 <td style="width:50% ; text-align:center">S.R ريال</td>
                                                 <td style="width:50% ; text-align:center">H هللة</td>
                                             </tr>
-                                            <tr>
+                                            <tr style="background-color:#ffffff;">
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
                                                         <span t-field="doc.amount"/>
@@ -102,7 +107,7 @@
                                 <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            .....................................................
+                                            <span t-esc="doc.amount(doc.amount_total, doc.currency_id)"/>
                                         </div>
                                     </td>
 
@@ -119,13 +124,13 @@
                                 <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            .....................................................
+                                            <span t-field="doc.ref"/>
                                         </div>
                                     </td>
 
                                     <td style="width:25%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            وذلك عن طريق
+                                            وذلك عن
                                         </div>
                                     </td>
                                 </tr>

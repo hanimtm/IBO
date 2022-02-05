@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="36" column="101" selection-start-line="36" selection-start-column="101" selection-end-line="36" selection-end-column="101" />
+            <state relative-caret-position="133">
+              <caret line="109" column="89" selection-start-line="109" selection-start-column="89" selection-end-line="109" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -46,6 +46,8 @@
       <find>_logger</find>
       <find>family</find>
       <find>fon</find>
+      <find>30</find>
+      <find>&lt;tr&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultOdooModelFileTemplate" value="OdooInit" />
     <property name="DefaultOdooViewFileTemplate" value="OdooViewReport" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="A:/My Data/oct 11/addons" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -385,8 +387,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" column="101" selection-start-line="36" selection-start-column="101" selection-end-line="36" selection-end-column="101" />
+        <state relative-caret-position="133">
+          <caret line="109" column="89" selection-start-line="109" selection-start-column="89" selection-end-line="109" selection-end-column="89" />
         </state>
       </provider>
     </entry>
