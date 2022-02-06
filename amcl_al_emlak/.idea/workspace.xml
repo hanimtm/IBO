@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="263" column="33" selection-start-line="263" selection-start-column="33" selection-end-line="263" selection-end-column="33" />
+            <state relative-caret-position="783">
+              <caret line="262" column="38" lean-forward="true" selection-start-line="249" selection-start-column="31" selection-end-line="262" selection-end-column="38" />
               <folding>
                 <element signature="n#table#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
               </folding>
@@ -390,8 +390,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="263" column="33" selection-start-line="263" selection-start-column="33" selection-end-line="263" selection-end-column="33" />
+        <state relative-caret-position="783">
+          <caret line="262" column="38" lean-forward="true" selection-start-line="249" selection-start-column="31" selection-end-line="262" selection-end-column="38" />
           <folding>
             <element signature="n#table#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
           </folding>
