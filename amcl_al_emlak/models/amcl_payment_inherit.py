@@ -48,9 +48,6 @@ class AMCLPaymentInherit(models.Model):
     @api.depends('amount')
     def compute_amount_to_letter(self):
         for payment in self:
-            # payment.amount_in_word = payment.amount_to_text(payment.amount, 'ar_001',
-            #                                                 payment.currency_id.arabic_currency_unit_label,
-            #                                                 payment.currency_id.arabic_currency_sub_unit_label)
             payment.amount_in_word = num2words(payment.amount, lang='ar_001')
 
     amount_str_before_point = fields.Char(compute='compute_amount_string')
