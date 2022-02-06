@@ -14,3 +14,11 @@ class AMCLPaymentInherit(models.Model):
         for payment in self:
             payment.amount_in_word = num2words(payment.amount)
 
+    amount_str_before_point = fields.Char(compute='compute_amount_string')
+    amount_str_after_point = fields.Char(compute='compute_amount_string')
+
+    @api.depends('amount')
+    def compute_amount_string(self):
+        for payment in self:
+            payment.amount_str_before_point = payment.amount.split('.')[0]
+            payment.amount_str_after_point = payment.amount.split('.')[1]
