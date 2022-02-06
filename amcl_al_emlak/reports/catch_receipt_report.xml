@@ -134,18 +134,18 @@
 <!--                                </tr>-->
 <!--                            </table>-->
 
-                            
+
 
                             <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
-                                <div style="display:inline; width:20%;">
+                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                     <b>إستلمنا من السادة</b>
                                 </div>
 
-                                <div style="display:inline; width:50%; margin-right:200px;">
+                                <div style="display:inline; width:50%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                     <b><span t-field="doc.partner_id.name"/></b>
                                 </div>
 
-                                 <div style="display:inline; width:30%; margin-right:200px;">
+                                 <div style="display:inline; width:30%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">
                                     <b><span t-field="doc.partner_id.name"/></b>
                                 </div>
 
@@ -154,68 +154,114 @@
 
 
                             <br/>
-                            <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr style="background-color:#ffffff;">
-                                    <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            <span t-esc="doc.amount_in_word"/>
-                                        </div>
-                                    </td>
+<!--                            <table style="width:100% ; text-align:right; background-color:#ffffff;">-->
+<!--                                <tr style="background-color:#ffffff;">-->
+<!--                                    <td style="width:75%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            <span t-esc="doc.amount_in_word"/>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
 
-                                    <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            مبلغ وقدره
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+<!--                                    <td style="width:25%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            مبلغ وقدره-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
 
-                            <br/>
-                            <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr style="background-color:#ffffff;">
-                                    <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            <span t-field="doc.ref"/>
-                                        </div>
-                                    </td>
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b>مبلغ وقدره</b>
+                                </div>
 
-                                    <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            وذلك عن
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b><span t-field="doc.amount_in_word"/></b>
+                                </div>
+                            </div>
 
                             <br/>
-                            <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr style="background-color:#ffffff;">
-                                    <td style="width:75%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            <span t-field="doc.journal_id.name"/>
-                                        </div>
-                                    </td>
+<!--                            <table style="width:100% ; text-align:right; background-color:#ffffff;">-->
+<!--                                <tr style="background-color:#ffffff;">-->
+<!--                                    <td style="width:75%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            <span t-field="doc.ref"/>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
 
-                                    <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            طريقة الدفع
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+<!--                                    <td style="width:25%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            وذلك عن-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b>وذلك عن</b>
+                                </div>
+
+                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b><span t-field="doc.ref"/></b>
+                                </div>
+                            </div>
+
                             <br/>
-                            <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr style="background-color:#ffffff;">
-                                    <td style="width:33%; text-align:center">المدير المالي</td>
-                                    <td style="width:33%; text-align:center">المحاسب</td>
-                                    <td style="width:33%; text-align:center">أمين الصندوق</td>
-                                </tr>
-                                <tr>
-                                    <td style="width:33%; text-align:center"/>
-                                    <td style="width:33%; text-align:center"/>
-                                    <td style="width:33%; text-align:center"/>
-                                </tr>
-                            </table>
+<!--                            <table style="width:100% ; text-align:right; background-color:#ffffff;">-->
+<!--                                <tr style="background-color:#ffffff;">-->
+<!--                                    <td style="width:75%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            <span t-field="doc.journal_id.name"/>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+
+<!--                                    <td style="width:25%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            طريقة الدفع-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b>طريقة الدفع</b>
+                                </div>
+
+                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">
+                                    <b><span t-field="doc.journal_id.name"/></b>
+                                </div>
+                            </div>
+
+                            <br/>
+<!--                            <table style="width:100% ; text-align:right; background-color:#ffffff;">-->
+<!--                                <tr style="background-color:#ffffff;">-->
+<!--                                    <td style="width:33%; text-align:center">المدير المالي</td>-->
+<!--                                    <td style="width:33%; text-align:center">المحاسب</td>-->
+<!--                                    <td style="width:33%; text-align:center">أمين الصندوق</td>-->
+<!--                                </tr>-->
+<!--                                <tr>-->
+<!--                                    <td style="width:33%; text-align:center"/>-->
+<!--                                    <td style="width:33%; text-align:center"/>-->
+<!--                                    <td style="width:33%; text-align:center"/>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:33%;">
+                                    <b>المدير المالي</b>
+                                </div>
+
+                                <div style="display:inline; width:33%; ">
+                                    <b>المحاسب</b>
+                                </div>
+
+                                 <div style="display:inline; width:33%; ">
+                                    <b>أمين الصندوق</b>
+                                </div>
+
+                            </div>
+                            <br/>
                             <br/>
                         </div>
                     </t>
