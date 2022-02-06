@@ -68,7 +68,7 @@
                                             <tr style="background-color:#ffffff;">
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
-                                                        <t t-set='amount' t-value="doc.amount.split('.')"/>
+                                                        <t t-set='amount' t-value="str(doc.amount.split('.'))"/>
                                                         <span t-esc="amount[0]"/>
                                                     </div>
                                                 </td>
