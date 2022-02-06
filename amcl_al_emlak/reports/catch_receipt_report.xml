@@ -29,7 +29,7 @@
         <template id="report_catch_receipt_report_view">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
-                    <t t-call="web.external_layout">
+                    <t t-call="web.external_layout" t-lang="ar_001" >
 
                         <table style="width:100%; background-color:#ffffff;">
                             <tr style="background-color:#ffffff;">
@@ -68,8 +68,8 @@
                                             <tr style="background-color:#ffffff;">
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
-                                                        <t t-set='amount' t-value="doc.amount.split"/>
-                                                        <span t-esc="(str(amount).split('.')[0]"/>
+<!--                                                        <t t-set='amount' t-value="doc.amount.split"/>-->
+<!--                                                        <span t-esc="(str(amount).split('.')[0]"/>-->
                                                     </div>
                                                 </td>
                                                 <td style="width:50% ; text-align:center">
