@@ -20,5 +20,6 @@ class AMCLPaymentInherit(models.Model):
     @api.depends('amount')
     def compute_amount_string(self):
         for payment in self:
-            payment.amount_str_before_point = payment.amount.split('.')[0]
-            payment.amount_str_after_point = payment.amount.split('.')[1]
+            payment.amount_str_before_point = str(payment.amount).split('.')[0]
+            payment.amount_str_after_point = str(payment.amount).split('.')[1]
+
