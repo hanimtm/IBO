@@ -7,7 +7,7 @@ from num2words import num2words
 class AMCLPaymentInherit(models.Model):
     _inherit = 'account.payment'
 
-    @api.multi
+    # @api.multi
     def amount_to_text(self, amount, force_lang=False):
         self.ensure_one()
 
