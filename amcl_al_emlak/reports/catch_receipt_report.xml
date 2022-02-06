@@ -69,12 +69,12 @@
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
                                                         <t t-set='amount' t-value="doc.amount.split"/>
-                                                        <span t-esc="%s:%s'%(str(amount).split('.')[0]"/>
+                                                        <span t-esc="(str(amount).split('.')[0]"/>
                                                     </div>
                                                 </td>
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
-                                                        <span t-esc="(str(amount).split('.')[1]"/>
+<!--                                                        <span t-esc="(str(amount).split('.')[1]"/>-->
                                                     </div>
                                                 </td>
                                             </tr>
