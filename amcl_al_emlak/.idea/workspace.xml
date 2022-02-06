@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cdeff28-ad85-40a5-b4ad-e631caf7b870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/models/amcl_payment_inherit.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/amcl_payment_inherit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/amcl_payment_inherit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/amcl_payment_inherit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/catch_receipt_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/catch_receipt_report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/ordinary_confession_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ordinary_confession_report.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="91" column="80" selection-start-line="91" selection-start-column="80" selection-end-line="91" selection-end-column="80" />
+              <folding>
+                <element signature="n#table#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+                <element signature="n#table#1;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+                <element signature="n#table#2;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+                <element signature="n#table#3;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+                <element signature="n#table#4;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+                <element signature="n#table#5;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reports/ordinary_confession_report.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -69,7 +86,6 @@
         <option value="$PROJECT_DIR$/wizard/abstract/__init__.py" />
         <option value="$PROJECT_DIR$/wizard/__init__.py" />
         <option value="$PROJECT_DIR$/reports/form_nb_4.xml" />
-        <option value="$PROJECT_DIR$/reports/ordinary_confession_report.xml" />
         <option value="$PROJECT_DIR$/reports/receipt_form_report.xml" />
         <option value="$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py" />
         <option value="$PROJECT_DIR$/wizard/views/amcl_report_wizard.xml" />
@@ -81,6 +97,7 @@
         <option value="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" />
         <option value="$PROJECT_DIR$/models/amcl_payment_inherit.py" />
         <option value="$PROJECT_DIR$/views/amcl_payment_inherit.xml" />
+        <option value="$PROJECT_DIR$/reports/ordinary_confession_report.xml" />
         <option value="$PROJECT_DIR$/reports/catch_receipt_report.xml" />
       </list>
     </option>
@@ -281,13 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/ordinary_confession_report.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -377,10 +387,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
+    <entry file="file://$PROJECT_DIR$/reports/ordinary_confession_report.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/catch_receipt_report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="91" column="80" selection-start-line="91" selection-start-column="80" selection-end-line="91" selection-end-column="80" />
+          <folding>
+            <element signature="n#table#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+            <element signature="n#table#1;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+            <element signature="n#table#2;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+            <element signature="n#table#3;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+            <element signature="n#table#4;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+            <element signature="n#table#5;n#div#0;n#t#0;n#t#0;n#t#0;n#template#0;n#data#0;n#odoo#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

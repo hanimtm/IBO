@@ -29,7 +29,7 @@
         <template id="report_catch_receipt_report_view">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
-                    <t t-call="web.external_layout" >
+                    <t t-call="web.external_layout">
 
                         <table style="width:100%; background-color:#ffffff;">
                             <tr style="background-color:#ffffff;">
@@ -81,27 +81,78 @@
                                     </td>
                                 </tr>
                             </table>
-                            <br/>
-                            <table style="width:100% ; text-align:right; background-color:#ffffff;">
-                                <tr style="background-color:#ffffff;">
-                                    <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            ................................................
-                                        </div>
-                                    </td>
-                                    <td style="width:50%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            <span t-field="doc.partner_id.name"/>
-                                        </div>
-                                    </td>
 
-                                    <td style="width:25%; text-align:left">
-                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            إستلمنا من السادة
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
+
+<!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
+<!--                                <div style="display:inline; width:33%;">-->
+<!--                                    <b>Date:-->
+<!--                                        <span t-field="doc.date"/>-->
+<!--                                    </b>-->
+<!--                                </div>-->
+
+<!--                                <div style="display:inline; width:3%; margin-right:200px;">-->
+<!--                                    <b>رقم</b>-->
+<!--                                    <span t-field="docs.name"/>-->
+<!--                                    <b>No</b>-->
+<!--                                </div>-->
+
+<!--                                <div style="display:inline; width:33%; margin-right:200px;">-->
+<!--                                    <div style="display:inline; width:50%;">-->
+<!--                                        <b>Date:-->
+<!--                                            <span t-field="doc.date"/>-->
+<!--                                        </b>-->
+<!--                                    </div>-->
+<!--                                    <div style="display:inline; width:50%;">-->
+<!--                                        <b>Date:-->
+<!--                                            <span t-field="doc.date"/>-->
+<!--                                        </b>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+
+<!--                            </div>-->
+
+
+                            <br/>
+<!--                            <table style="width:100% ; text-align:right; background-color:#ffffff;">-->
+<!--                                <tr style="background-color:#ffffff;">-->
+<!--                                    <td style="width:25%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            ................................................-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                    <td style="width:50%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            <span t-field="doc.partner_id.name"/>-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+
+<!--                                    <td style="width:25%; text-align:left">-->
+<!--                                        <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
+<!--                                            إستلمنا من السادة-->
+<!--                                        </div>-->
+<!--                                    </td>-->
+<!--                                </tr>-->
+<!--                            </table>-->
+
+                            
+
+                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">
+                                <div style="display:inline; width:20%;">
+                                    <b>إستلمنا من السادة</b>
+                                </div>
+
+                                <div style="display:inline; width:50%; margin-right:200px;">
+                                    <b><span t-field="doc.partner_id.name"/></b>
+                                </div>
+
+                                 <div style="display:inline; width:30%; margin-right:200px;">
+                                    <b><span t-field="doc.partner_id.name"/></b>
+                                </div>
+
+                            </div>
+
+
+
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
