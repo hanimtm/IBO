@@ -51,7 +51,7 @@ class AMCLPaymentInherit(models.Model):
             # payment.amount_in_word = payment.amount_to_text(payment.amount, 'ar_001',
             #                                                 payment.currency_id.arabic_currency_unit_label,
             #                                                 payment.currency_id.arabic_currency_sub_unit_label)
-            payment.amount_in_word = num2words(payment.amount)
+            payment.amount_in_word = num2words(payment.amount, lang='ar_001')
 
     amount_str_before_point = fields.Char(compute='compute_amount_string')
     amount_str_after_point = fields.Char(compute='compute_amount_string')
