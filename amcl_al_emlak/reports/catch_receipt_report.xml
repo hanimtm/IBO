@@ -44,7 +44,7 @@
                             </tr>
                         </table>
                         <br/>
-                        <div class="page" style="border-style:solid; border-radius:10px;">
+                        <div class="page" style="border-style:solid; border-radius:10px; direction: rtl;">
 
                             <table style="width:100%; text-align:right">
                                 <tr style="background-color:#ffffff;">
