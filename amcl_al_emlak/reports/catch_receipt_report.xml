@@ -68,12 +68,13 @@
                                             <tr style="background-color:#ffffff;">
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
-                                                        <span t-field="doc.amount"/>
+                                                        <t t-set='amount' t-value="customer.comment.split('.')"/>
+                                                        <span t-esc="amount[0]"/>
                                                     </div>
                                                 </td>
                                                 <td style="width:50% ; text-align:center">
                                                     <div style="border-style:solid; border-radius:10px; text-align:center; height:25px;">
-                                                        &#160;
+                                                        <span t-esc="amount[1]"/>
                                                     </div>
                                                 </td>
                                             </tr>
