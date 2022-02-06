@@ -108,7 +108,7 @@
                                 <tr style="background-color:#ffffff;">
                                     <td style="width:75%; text-align:left">
                                         <div style="border-style:groove; border-radius:10px; text-align:center; height:35px;">
-                                            <span t-esc="doc.amount(doc.amount_total, doc.currency_id)"/>
+                                            <span t-esc="doc.amount_in_word"/>
                                         </div>
                                     </td>
 
