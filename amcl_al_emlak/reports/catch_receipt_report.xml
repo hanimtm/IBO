@@ -33,14 +33,17 @@
 
                         <table style="width:100%; background-color:#ffffff;">
                             <tr style="background-color:#ffffff;">
+
+                                <td style="text-align:center; direction: rtl;">
+                                    <img class="img" src="/amcl_al_emlak/static/src/img/toyota.PNG"
+                                         style="height:150px;width:250px; text-align:right;"/>
+                                </td>
+
                                 <td style="text-align:center">
                                     <img class="img" src="/amcl_al_emlak/static/src/img/emlak_pic.PNG"
                                          style="height:150px;width:250px; text-align:right;"/>
                                 </td>
-                                <td style="text-align:center">
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/toyota.PNG"
-                                         style="height:150px;width:250px; text-align:right;"/>
-                                </td>
+
                             </tr>
                         </table>
                         <br/>
@@ -86,36 +89,6 @@
                                 </tr>
                             </table>
 
-
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:33%;">-->
-                            <!--                                    <b>Date:-->
-                            <!--                                        <span t-field="doc.date"/>-->
-                            <!--                                    </b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:3%; margin-right:200px;">-->
-                            <!--                                    <b>رقم</b>-->
-                            <!--                                    <span t-field="docs.name"/>-->
-                            <!--                                    <b>No</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:33%; margin-right:200px;">-->
-                            <!--                                    <div style="display:inline; width:50%;">-->
-                            <!--                                        <b>Date:-->
-                            <!--                                            <span t-field="doc.date"/>-->
-                            <!--                                        </b>-->
-                            <!--                                    </div>-->
-                            <!--                                    <div style="display:inline; width:50%;">-->
-                            <!--                                        <b>Date:-->
-                            <!--                                            <span t-field="doc.date"/>-->
-                            <!--                                        </b>-->
-                            <!--                                    </div>-->
-                            <!--                                </div>-->
-
-                            <!--                            </div>-->
-
-
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
@@ -142,23 +115,6 @@
                                 </tr>
                             </table>
 
-
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b>إستلمنا من السادة</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:50%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b><span t-field="doc.partner_id.name"/></b>-->
-                            <!--                                </div>-->
-
-                            <!--                                 <div style="display:inline; width:30%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b><span t-field="doc.partner_id.name"/></b>-->
-                            <!--                                </div>-->
-
-                            <!--                            </div>-->
-
-
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
@@ -177,16 +133,6 @@
 
                                 </tr>
                             </table>
-
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b>مبلغ وقدره</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b><span t-field="doc.amount_in_word"/></b>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
 
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
@@ -209,16 +155,6 @@
                                 </tr>
                             </table>
 
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b>وذلك عن</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b><span t-field="doc.ref"/></b>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
-
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
@@ -237,15 +173,6 @@
 
                                 </tr>
                             </table>
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:20%; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b>طريقة الدفع</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:80%; margin-right:200px; border-style:groove; border-radius:10px; text-align:center; height:35px;">-->
-                            <!--                                    <b><span t-field="doc.journal_id.name"/></b>-->
-                            <!--                                </div>-->
-                            <!--                            </div>-->
 
                             <br/>
                             <table style="width:100% ; text-align:right; background-color:#ffffff;">
@@ -263,20 +190,6 @@
                                 </tr>
                             </table>
 
-                            <!--                            <div style="display: flex; justify-content: right; width:100%; font-family: Droid Arabic Kufi; text-align:right;">-->
-                            <!--                                <div style="display:inline; width:33%;">-->
-                            <!--                                    <b>المدير المالي</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                <div style="display:inline; width:33%; ">-->
-                            <!--                                    <b>المحاسب</b>-->
-                            <!--                                </div>-->
-
-                            <!--                                 <div style="display:inline; width:33%; ">-->
-                            <!--                                    <b>أمين الصندوق</b>-->
-                            <!--                                </div>-->
-
-                            <!--                            </div>-->
                             <br/>
                             <br/>
                         </div>
