@@ -35,12 +35,18 @@
                             <tr style="background-color:#ffffff;">
 
                                 <td style="text-align:center; direction: rtl;">
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/toyota.PNG"
-                                         style="height:150px;width:250px; text-align:right;"/>
+                                    <div>
+                                    <img class="img" src="/amcl_al_emlak/static/src/img/toyota.jpg"
+                                         style="height:60px;width:250px; text-align:right;"/>
+                                    </div>
+                                    <div>
+                                    <img class="img" src="/amcl_al_emlak/static/src/img/lexus.jpg"
+                                         style="height:60px;width:250px; text-align:right;"/>
+                                    </div>
                                 </td>
 
                                 <td style="text-align:center">
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/emlak_pic.PNG"
+                                    <img class="img" src="/amcl_al_emlak/static/src/img/logo.PNG"
                                          style="height:150px;width:250px; text-align:right;"/>
                                 </td>
 
