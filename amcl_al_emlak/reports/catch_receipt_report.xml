@@ -89,7 +89,8 @@
                                         </b>
                                     </td>
 
-                                    <td style="width:33%; text-align:left">Date:
+                                    <td style="width:33%; text-align:left">
+                                        <b>Date:</b>
                                         <span t-field="doc.date"/>
                                     </td>
 
