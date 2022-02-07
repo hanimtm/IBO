@@ -91,7 +91,7 @@
 
                                     <td style="width:33%; text-align:left">
                                         <b>Date:</b>
-                                        <span t-field="doc.date"/>
+                                       <b> <span t-field="doc.date"/></b>
                                     </td>
 
                                 </tr>
