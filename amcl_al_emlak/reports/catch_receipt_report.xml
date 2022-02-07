@@ -33,23 +33,22 @@
 
                         <table style="width:100%; background-color:#ffffff;">
                             <tr style="background-color:#ffffff;">
-
-                                <td style="text-align:center; direction: rtl;">
-                                    <div>
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/toyota.jpg"
-                                         style="height:60px;width:250px; text-align:right;"/>
-                                    </div>
-                                    <div>
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/lexus.jpg"
-                                         style="height:60px;width:250px; text-align:right;"/>
-                                    </div>
-                                </td>
-
                                 <td style="text-align:center">
-                                    <img class="img" src="/amcl_al_emlak/static/src/img/logo.PNG"
+                                    <img class="img" src="/amcl_al_emlak/static/src/img/logo.png"
                                          style="height:150px;width:250px; text-align:right;"/>
                                 </td>
 
+                                <td style="text-align:center; direction: rtl;">
+                                    <div>
+                                        <img class="img" src="/amcl_al_emlak/static/src/img/toyota.jpg"
+                                             style="height:60px;width:250px; text-align:right;"/>
+                                    </div>
+                                    <br/>
+                                    <div>
+                                        <img class="img" src="/amcl_al_emlak/static/src/img/lexus.jpg"
+                                             style="height:60px;width:250px; text-align:right;"/>
+                                    </div>
+                                </td>
                             </tr>
                         </table>
                         <br/>
