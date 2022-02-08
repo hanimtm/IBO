@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cdeff28-ad85-40a5-b4ad-e631caf7b870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/vehicle_registration_agency_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/vehicle_registration_agency_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/vehicle_registration_woman_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/vehicle_registration_woman_report.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" afterDir="false" />
     </list>
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wizard/models/amcl_report_wizard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="94" />
+            <state relative-caret-position="321">
+              <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -34,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="82" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="82" />
+              <caret line="8" column="77" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -48,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="127" column="80" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
+            <state relative-caret-position="154">
+              <caret line="127" column="75" selection-start-line="127" selection-start-column="75" selection-end-line="127" selection-end-column="75" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -122,10 +118,10 @@
         <option value="$PROJECT_DIR$/reports/catch_receipt_report.xml" />
         <option value="$PROJECT_DIR$/reports/vehicle_registration_agency_report.xml" />
         <option value="$PROJECT_DIR$/reports/vehicle_registration_woman_report.xml" />
-        <option value="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" />
-        <option value="$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml" />
         <option value="$PROJECT_DIR$/__manifest__.py" />
         <option value="$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py" />
+        <option value="$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml" />
+        <option value="$PROJECT_DIR$/wizard/models/amcl_report_wizard.py" />
       </list>
     </option>
   </component>
@@ -407,27 +403,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wizard/models/amcl_report_wizard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="82" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -440,8 +419,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wizard/abstract/nv_abstract_report.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="127" column="80" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
+        <state relative-caret-position="154">
+          <caret line="127" column="75" selection-start-line="127" selection-start-column="75" selection-end-line="127" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/vehicle_registration_authorization_report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="77" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wizard/models/amcl_report_wizard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="55" column="83" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>

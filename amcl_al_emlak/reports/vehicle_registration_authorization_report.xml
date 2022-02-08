@@ -6,7 +6,7 @@
                 id="report_vehicle_registration_authorization"
                 model="sale.order"
                 string="تفويض بتسجيل مركبة"
-                name="amcl_al_emlak.report_vehicle_registration_authorization_view"
+                name="amcl_al_emlak.report_vehicle_registration_authorization"
                 file="amcl_al_emlak.report_vehicle_registration_authorization"
                 report_type="qweb-pdf"/>
 

@@ -125,7 +125,7 @@ class VehicleRegistrationAgencyReport(models.AbstractModel):
 
 #  تفويض بتسجيل مركبة
 class CatchReceiptReport(models.AbstractModel):
-    _name = 'report.amcl_al_emlak.report_vehicle_registration_authorization_view'
+    _name = 'report.amcl_al_emlak.report_vehicle_registration_authorization'
     _description = 'سند قبض'
 
     @api.model
