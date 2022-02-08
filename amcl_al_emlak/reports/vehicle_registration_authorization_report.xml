@@ -33,14 +33,14 @@
                             <br/>
                             <table style="width:100%; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">
                                         <b>أفيدكم أنا السيد</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">
                                         <b>هوية رقم</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">&#160;</td>
                                 </tr>
                             </table>
                             <br/>
@@ -50,25 +50,25 @@
                             <br/>
                             <table style="width:100%; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">
                                         <b>نوع</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">
                                         <b>هيكل</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">&#160;</td>
                                 </tr>
 
                                 <tr style="background-color:#ffffff; margin-top:25px;">
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">
                                         <b>وتسليمها الى السيد</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
-                                    <td style="width:25%;">
+                                    <td style="width:25%; text-align:right;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">
                                         <b>هوية</b>
                                     </td>
-                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%; text-align:right;">&#160;</td>
                                 </tr>
                             </table>
                             <br/>
