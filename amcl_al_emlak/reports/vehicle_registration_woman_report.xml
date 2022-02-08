@@ -25,8 +25,8 @@
                                     <b>إقرار بتسجيل مركبة</b>
                                 </u>
                             </div>
-
-                            <table style="width:100%;">
+                            <br/>
+                            <table style="width:100%; background-color:#ffffff;">
                                 <tr>
                                     <td style="width:25%;">
                                         <b>أقر أنا</b>
@@ -56,6 +56,7 @@
                                     <td style="width:25%;">&#160;</td>
                                 </tr>
                             </table>
+                            <br/>
                             <div>
                                 <b>
                                     ولا مانع لدي من تسجيلها بإسمي علما بأنه لا يوجد مستخدم فعلي للمركبة وهذا إقرار من
@@ -66,17 +67,19 @@
                                     ولا مانع لدي من ذلك دون أدنى مسئولية على شركة العملاق
                                 </b>
                             </div>
+                            <br/>
                             <div>
                                 <b>رقم الجوال</b>
 
                             </div>
+                            <br/>
                             <div>
                                 <b>التوقيع</b>
                             </div>
                             <hr/>
 
                         </div>
-                        <table style="width:100%;">
+                        <table style="width:100%; background-color:#ffffff;">
                             <tr>
                                 <td style="width:25%;">
                                     <b>أقر أنا المعرف</b>
@@ -98,10 +101,13 @@
                                 <td style="width:25%;">&#160;</td>
                             </tr>
                         </table>
+                        <br/>
                         <div>
                             <b>حضرت لدى المعرض وقامت بالتوقيع على هذا الإقرار. وأنا أتحمل مسئولية كل ما يترتب على ذلك</b>
                         </div>
+                        <br/>
                         <div><b>التوقيع</b></div>
+                        <br/>
                         <div><b>الجوال</b></div>
                     </t>
                 </t>
