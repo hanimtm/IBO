@@ -15,7 +15,8 @@ class AMCLReportingWizard(models.TransientModel):
                                     ('form_no_4_commitment_of_individuals', 'نموذج رقم 4 - تعهد الأفراد'),
                                     ('user_acknowledgment_form', 'نموذج إقرار المستخدم'),
                                     ('vehicle_registration_woman', 'إقرار بتسجيل مركبة بإسم إمرأة'),
-                                    ('vehicle_registration_agency', 'إقرار تسجيل مركبة بوكالة')
+                                    ('vehicle_registration_agency', 'إقرار تسجيل مركبة بوكالة'),
+                                    ('vehicle_registration_authorization', 'تفويض بتسجيل مركبة')
                                     ],
                                    string='Chose Report Type', default='normal_confession')
 
@@ -49,6 +50,9 @@ class AMCLReportingWizard(models.TransientModel):
             report_name += 'amcl_al_emlak.report_vehicle_registration_woman_view'
 
         elif self.type_report == 'vehicle_registration_agency':
+            report_name += 'amcl_al_emlak.report_vehicle_registration_agency_view'
+
+        elif self.type_report == 'vehicle_registration_authorization':
             report_name += 'amcl_al_emlak.report_vehicle_registration_agency_view'
 
         else:

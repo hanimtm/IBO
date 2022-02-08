@@ -3,14 +3,14 @@
     <data>
 
         <report
-                id="report_vehicle_registration_agency"
+                id="report_vehicle_registration_authorization"
                 model="sale.order"
-                string="إقرار تسجيل مركبة بوكالة"
-                name="amcl_al_emlak.report_vehicle_registration_agency_view"
-                file="amcl_al_emlak.report_vehicle_registration_agency"
+                string="تفويض بتسجيل مركبة"
+                name="amcl_al_emlak.report_vehicle_registration_authorization_view"
+                file="amcl_al_emlak.report_vehicle_registration_authorization"
                 report_type="qweb-pdf"/>
 
-        <template id="report_vehicle_registration_agency_view">
+        <template id="report_vehicle_registration_authorization_view">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
@@ -22,7 +22,7 @@
 
                             <div style="text-align:center; font-size:20px;">
                                 <u>
-                                    <b>إقرار</b>
+                                    <b>تفويض بتسجيل مركبة</b>
                                 </u>
                             </div>
                             <br/>
@@ -33,7 +33,7 @@
                             <table style="width:100%; background-color:#ffffff;">
                                 <tr style="background-color:#ffffff;">
                                     <td style="width:25%;">
-                                        <b>أقر أنا السيد</b>
+                                        <b>أفيدكم أنا السيد</b>
                                     </td>
                                     <td style="width:25%;">&#160;</td>
                                     <td style="width:25%;">
@@ -44,7 +44,7 @@
                             </table>
                             <br/>
                             <div>
-                                <b>الموضحة بياناتي أعلاه بأنه لا مانع لدي من تسجيل السيارة</b>
+                                <b>بتسجيل السيارة بإسمي</b>
                             </div>
                             <br/>
                             <table style="width:100%; background-color:#ffffff;">
@@ -58,40 +58,29 @@
                                     </td>
                                     <td style="width:25%;">&#160;</td>
                                 </tr>
-                                <tr style="background-color:#ffffff; margin-top:225px;">
-                                    <td style="width:30%;">
-                                        <b>الموديل</b>
-                                    </td>
-                                    <td style="width:20%;">&#160;</td>
+                                <tr style="background-color:#ffffff;">
                                     <td style="width:25%;">
-                                        <b>اللون</b>
+                                        <b>وتسليمها</b>
+                                    </td>
+                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%;">
                                     </td>
                                     <td style="width:25%;">&#160;</td>
                                 </tr>
-                                <tr style="background-color:#ffffff; margin-top:25px;">
-                                    <td style="width:30%;">
-                                        <b>بإسم السيد</b>
+                                <tr style="background-color:#ffffff;">
+                                    <td style="width:25%;">
+                                        <b>السيد</b>
                                     </td>
-                                    <td style="width:20%;">&#160;</td>
+                                    <td style="width:25%;">&#160;</td>
                                     <td style="width:25%;">
                                         <b>هوية</b>
-                                    </td>
-                                    <td style="width:25%;">&#160;</td>
-                                </tr>
-                                <tr style="background-color:#ffffff; margin-top:25px;">
-                                    <td style="width:30%;">
-                                        <b>بموجب وكالة رقم</b>
-                                    </td>
-                                    <td style="width:20%;">&#160;</td>
-                                    <td style="width:25%;">
-
                                     </td>
                                     <td style="width:25%;">&#160;</td>
                                 </tr>
                             </table>
                             <br/>
                             <div>
-                                <b>وهذا إقرار مني بذلك, وأشهد الله على ذلك والله خير الشاهدين</b>
+                                <b>وله الحق في استلام المركبة دون أدنى مسئولية على شركة العملاق, وهذا اقرار مني بذلك</b>
                             </div>
                             <br/>
                             <div>
@@ -101,6 +90,11 @@
                             <div>
                                 <b>الجوال</b>
                             </div>
+                            <br/>
+                            <div>
+                                <b>التاريخ</b>
+                            </div>
+
 
                         </div>
                     </t>

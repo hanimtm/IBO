@@ -84,7 +84,7 @@ class FormNb4CommitmentReport(models.AbstractModel):
 
 
 #  إقرار بتسجيل مركبة بإسم إمرأة
-class CatchReceiptReport(models.AbstractModel):
+class VehicleRegistrationWomanReport(models.AbstractModel):
     _name = 'report.amcl_al_emlak.report_vehicle_registration_woman_view'
     _description = 'سند قبض'
 
@@ -104,8 +104,28 @@ class CatchReceiptReport(models.AbstractModel):
 
 
 #  إقرار بتسجيل مركبة بوكالة
-class CatchReceiptReport(models.AbstractModel):
+class VehicleRegistrationAgencyReport(models.AbstractModel):
     _name = 'report.amcl_al_emlak.report_vehicle_registration_agency_view'
+    _description = 'سند قبض'
+
+    @api.model
+    def _get_report_values(self, docids, data=None):
+        doc_id = data['id']
+        model = data['model']
+        doc = self.env[data['model']].browse(doc_id)
+        # data['info'] = doc.get_lines()
+        docargs = {
+            'doc_ids': [doc_id],
+            'doc_model': model,
+            'data': data,
+            'docs': [doc],
+        }
+        return docargs
+
+
+#  تفويض بتسجيل مركبة
+class CatchReceiptReport(models.AbstractModel):
+    _name = 'report.amcl_al_emlak.report_vehicle_registration_authorization_view'
     _description = 'سند قبض'
 
     @api.model
