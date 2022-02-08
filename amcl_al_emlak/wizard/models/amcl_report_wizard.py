@@ -13,7 +13,9 @@ class AMCLReportingWizard(models.TransientModel):
     type_report = fields.Selection([('normal_confession', 'اقرار عادي'),
                                     ('form_receipt', 'نموذج استلام'),
                                     ('form_no_4_commitment_of_individuals', 'نموذج رقم 4 - تعهد الأفراد'),
-                                    ('user_acknowledgment_form', 'نموذج إقرار المستخدم')],
+                                    ('user_acknowledgment_form', 'نموذج إقرار المستخدم'),
+                                    ('vehicle_registration_woman', 'إقرار بتسجيل مركبة بإسم إمرأة'),
+                                    ],
                                    string='Chose Report Type', default='normal_confession')
 
     # catch_receipt = fields.Boolean(string='Catch Receipt', default=False)
@@ -41,6 +43,10 @@ class AMCLReportingWizard(models.TransientModel):
 
         elif self.type_report == 'user_acknowledgment_form':
             report_name += 'amcl_al_emlak.report_user_acknowledgment_form_view'
+
+        elif self.type_report == 'vehicle_registration_woman':
+            report_name += 'amcl_al_emlak.report_vehicle_registration_woman_view'
+
         else:
             raise ValidationError('الرجاء اختيار نوع التقرير المطلوب')
 

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="report_vehicle_registration_woman"
+                model="sale.order"
+                string="amcl_al_emlak"
+                name="amcl_al_emlak.report_vehicle_registration_woman_view"
+                file="amcl_al_emlak.report_vehicle_registration_woman"
+                report_type="qweb-pdf"/>
+
+        <template id="report_vehicle_registration_woman_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <div class="page" style="direction: rtl; font-family: Droid Arabic Kufi;">
+                            <div>
+                                <b>التاريخ</b>
+                            </div>
+                            <br/>
+
+                            <div style="text-align:center; font-size:20px;">
+                                <u>
+                                    <b>إقرار بتسجيل مركبة</b>
+                                </u>
+                            </div>
+
+                            <table style="width:100%;">
+                                <tr>
+                                    <td style="width:25%;">
+                                        <b>أقر أنا</b>
+                                    </td>
+                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%;">
+                                        <b>هوية رقم</b>
+                                    </td>
+                                    <td style="width:25%;">&#160;</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:30%;">
+                                        <b>بأنني اشتريت سيارة نوع</b>
+                                    </td>
+                                    <td style="width:20%;">&#160;</td>
+                                    <td style="width:25%;">
+                                        <b>هيكل رقم</b>
+                                    </td>
+                                    <td style="width:25%;">&#160;</td>
+                                </tr>
+                                <tr>
+                                    <td style="width:30%;">
+                                        <b>بأنني اشتريت سيارة نوع</b>
+                                    </td>
+                                    <td style="width:20%;">&#160;</td>
+                                    <td style="width:25%;">&#160;</td>
+                                    <td style="width:25%;">&#160;</td>
+                                </tr>
+                            </table>
+                            <div>
+                                <b>
+                                    ولا مانع لدي من تسجيلها بإسمي علما بأنه لا يوجد مستخدم فعلي للمركبة وهذا إقرار من
+                                    بذلك
+                                </b>
+                                <b>وتسليمها للسيد</b>
+                                <b>
+                                    ولا مانع لدي من ذلك دون أدنى مسئولية على شركة العملاق
+                                </b>
+                            </div>
+                            <div>
+                                <b>رقم الجوال</b>
+
+                            </div>
+                            <div>
+                                <b>التوقيع</b>
+                            </div>
+                            <hr/>
+
+                        </div>
+                        <table style="width:100%;">
+                            <tr>
+                                <td style="width:25%;">
+                                    <b>أقر أنا المعرف</b>
+                                </td>
+                                <td style="width:25%;">&#160;</td>
+                                <td style="width:25%;">
+                                    <b>هوية رقم</b>
+                                </td>
+                                <td style="width:25%;">&#160;</td>
+                            </tr>
+                            <tr>
+                                <td style="width:30%;">
+                                    <b>بأن السيدة</b>
+                                </td>
+                                <td style="width:20%;">&#160;</td>
+                                <td style="width:25%;">
+                                    <b>صلة القرابة</b>
+                                </td>
+                                <td style="width:25%;">&#160;</td>
+                            </tr>
+                        </table>
+                        <div>
+                            <b>حضرت لدى المعرض وقامت بالتوقيع على هذا الإقرار. وأنا أتحمل مسئولية كل ما يترتب على ذلك</b>
+                        </div>
+                        <div><b>التوقيع</b></div>
+                        <div><b>الجوال</b></div>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>

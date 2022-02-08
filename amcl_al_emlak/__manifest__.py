@@ -27,6 +27,7 @@
         'reports/form_nb_4_report.xml',
         'reports/user_acknowledgment_form_report.xml',
         'reports/catch_receipt_report.xml',
+        'reports/vehicle_registration_woman_report.xml',
 
         'wizard/views/amcl_report_wizard.xml'
 

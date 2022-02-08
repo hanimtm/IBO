@@ -83,21 +83,21 @@ class FormNb4CommitmentReport(models.AbstractModel):
         return docargs
 
 
-# #  سند قبض
-# class CatchReceiptReport(models.AbstractModel):
-#     _name = 'report.amcl_al_emlak.report_catch_receipt_report_view'
-#     _description = 'سند قبض'
-#
-#     @api.model
-#     def _get_report_values(self, docids, data=None):
-#         doc_id = data['id']
-#         model = data['model']
-#         doc = self.env[data['model']].browse(doc_id)
-#         # data['info'] = doc.get_lines()
-#         docargs = {
-#             'doc_ids': [doc_id],
-#             'doc_model': model,
-#             'data': data,
-#             'docs': [doc],
-#         }
-#         return docargs
+#  إقرار بتسجيل مركبة بإسم إمرأة
+class CatchReceiptReport(models.AbstractModel):
+    _name = 'report.amcl_al_emlak.report_vehicle_registration_woman_view'
+    _description = 'سند قبض'
+
+    @api.model
+    def _get_report_values(self, docids, data=None):
+        doc_id = data['id']
+        model = data['model']
+        doc = self.env[data['model']].browse(doc_id)
+        # data['info'] = doc.get_lines()
+        docargs = {
+            'doc_ids': [doc_id],
+            'doc_model': model,
+            'data': data,
+            'docs': [doc],
+        }
+        return docargs
