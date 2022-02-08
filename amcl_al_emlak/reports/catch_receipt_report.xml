@@ -20,7 +20,7 @@
         <report
                 id="report_catch_receipt_report"
                 model="account.payment"
-                string="Catch Receipt"
+                string="سند قبض"
                 name="amcl_al_emlak.report_catch_receipt_report_view"
                 file="amcl_al_emlak.report_catch_receipt_report"
                 paperformat="amcl_al_emlak.paperformat_catch_receipt_without_header_and_footer_report"

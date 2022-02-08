@@ -20,7 +20,7 @@
         <report
                 id="report_form_nb_4_commitment_of_individuals"
                 model="sale.order"
-                string="Form Nb 4 Commitment Of Individuals"
+                string="نموذج رقم 4- تعهد للأفراد"
                 name="amcl_al_emlak.form_nb_4_commitment_of_individuals"
                 file="amcl_al_emlak.form_nb_4_commitment_of_individuals"
                 paperformat="amcl_al_emlak.paperformat_without_header_and_footer_report"

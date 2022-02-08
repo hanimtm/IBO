@@ -5,7 +5,7 @@
         <report
                 id="report_ordinary_confession"
                 model="sale.order"
-                string="Ordinary Confession"
+                string="نوذج اقرار مستخدم"
                 name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
                 file="amcl_al_emlak.report_sale_order"
                 report_type="qweb-pdf"

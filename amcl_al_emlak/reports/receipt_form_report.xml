@@ -5,7 +5,7 @@
         <report
                 id="report_receipt_form"
                 model="sale.order"
-                string="Receipt Form"
+                string="نموذج استلام Memory"
                 name="amcl_al_emlak.report_sale_order_receipt_form_view"
                 file="amcl_al_emlak.report_receipt_form"
                 report_type="qweb-pdf"
