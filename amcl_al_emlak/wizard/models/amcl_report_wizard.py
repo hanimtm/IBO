@@ -15,6 +15,7 @@ class AMCLReportingWizard(models.TransientModel):
                                     ('form_no_4_commitment_of_individuals', 'نموذج رقم 4 - تعهد الأفراد'),
                                     ('user_acknowledgment_form', 'نموذج إقرار المستخدم'),
                                     ('vehicle_registration_woman', 'إقرار بتسجيل مركبة بإسم إمرأة'),
+                                    ('vehicle_registration_agency', 'إقرار تسجيل مركبة بوكالة')
                                     ],
                                    string='Chose Report Type', default='normal_confession')
 
