@@ -101,3 +101,43 @@ class CatchReceiptReport(models.AbstractModel):
             'docs': [doc],
         }
         return docargs
+
+
+#  إقرار بتسجيل مركبة بوكالة
+class CatchReceiptReport(models.AbstractModel):
+    _name = 'report.amcl_al_emlak.report_vehicle_registration_agency_view'
+    _description = 'سند قبض'
+
+    @api.model
+    def _get_report_values(self, docids, data=None):
+        doc_id = data['id']
+        model = data['model']
+        doc = self.env[data['model']].browse(doc_id)
+        # data['info'] = doc.get_lines()
+        docargs = {
+            'doc_ids': [doc_id],
+            'doc_model': model,
+            'data': data,
+            'docs': [doc],
+        }
+        return docargs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -48,6 +48,9 @@ class AMCLReportingWizard(models.TransientModel):
         elif self.type_report == 'vehicle_registration_woman':
             report_name += 'amcl_al_emlak.report_vehicle_registration_woman_view'
 
+        elif self.type_report == 'vehicle_registration_agency':
+            report_name += 'amcl_al_emlak.report_vehicle_registration_agency_view'
+
         else:
             raise ValidationError('الرجاء اختيار نوع التقرير المطلوب')
 
