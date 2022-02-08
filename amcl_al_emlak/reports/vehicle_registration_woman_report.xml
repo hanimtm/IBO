@@ -8,14 +8,15 @@
                 string="إقرار تسجيل مركبة بإسم إمرأة"
                 name="amcl_al_emlak.report_vehicle_registration_woman_view"
                 file="amcl_al_emlak.report_vehicle_registration_woman"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                attachment_use="False"/>
 
         <template id="report_vehicle_registration_woman_view">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page" style="direction: rtl; font-family: Droid Arabic Kufi;">
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التاريخ</b>
                             </div>
                             <br/>
@@ -57,7 +58,7 @@
                                 </tr>
                             </table>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>
                                     ولا مانع لدي من تسجيلها بإسمي علما بأنه لا يوجد مستخدم فعلي للمركبة وهذا إقرار من
                                     بذلك
@@ -70,12 +71,12 @@
                                 </b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>رقم الجوال</b>
 
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التوقيع</b>
                             </div>
                             <hr/>
@@ -104,17 +105,17 @@
                                 </tr>
                             </table>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>حضرت لدى المعرض وقامت بالتوقيع على هذا الإقرار. وأنا أتحمل مسئولية كل ما يترتب على
                                     ذلك
                                 </b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التوقيع</b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>الجوال</b>
                             </div>
                         </div>

@@ -8,14 +8,15 @@
                 string="تفويض بتسجيل مركبة"
                 name="amcl_al_emlak.report_vehicle_registration_authorization"
                 file="amcl_al_emlak.report_vehicle_registration_authorization"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                attachment_use="False"/>
 
         <template id="report_vehicle_registration_authorization">
             <t t-call="web.html_container">
                 <t t-foreach="docs" t-as="doc">
                     <t t-call="web.external_layout">
                         <div class="page" style="direction: rtl; font-family: Droid Arabic Kufi;">
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التاريخ</b>
                             </div>
                             <br/>
@@ -26,7 +27,7 @@
                                 </u>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>السادة شركة العملاق التجارية</b>
                             </div>
                             <br/>
@@ -43,7 +44,7 @@
                                 </tr>
                             </table>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>بتسجيل السيارة بإسمي</b>
                             </div>
                             <br/>
@@ -71,19 +72,19 @@
                                 </tr>
                             </table>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>وله الحق في استلام المركبة دون أدنى مسئولية على شركة العملاق, وهذا اقرار مني بذلك</b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التوقيع</b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>الجوال</b>
                             </div>
                             <br/>
-                            <div>
+                            <div style="text-align:right;">
                                 <b>التاريخ</b>
                             </div>
 
