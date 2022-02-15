@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0f47a27-cca5-421a-a357-b6a3e9ae09c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/custom_header_footer_report/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/custom_header_footer_report/__manifest__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_header_footer_report/reports/template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/custom_header_footer_report/reports/template.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom_header_footer_report/reports/template.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+            <state relative-caret-position="176">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -217,8 +216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom_header_footer_report/reports/template.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+        <state relative-caret-position="176">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
