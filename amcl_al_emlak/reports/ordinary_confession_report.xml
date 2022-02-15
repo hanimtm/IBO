@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+        <record id="report_ordinary_confession" model="ir.actions.report">
+            <field name="name">نوذج اقرار مستخدم</field>
+            <field name="model">sale.order</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">amcl_al_emlak.report_sale_order_ordinary_confession_view</field>
+            <field name="report_file">amcl_al_emlak.report_sale_order</field>
+            <field name="attachment_use">False</field>
+        </record>
 
-        <report
-                id="report_ordinary_confession"
-                model="sale.order"
-                string="نوذج اقرار مستخدم"
-                name="amcl_al_emlak.report_sale_order_ordinary_confession_view"
-                file="amcl_al_emlak.report_sale_order"
-                report_type="qweb-pdf"
-                attachment_use="False"/>
+<!--        <report-->
+<!--                id="report_ordinary_confession"-->
+<!--                model="sale.order"-->
+<!--                string="نوذج اقرار مستخدم"-->
+<!--                name="amcl_al_emlak.report_sale_order_ordinary_confession_view"-->
+<!--                file="amcl_al_emlak.report_sale_order"-->
+<!--                report_type="qweb-pdf"-->
+<!--                attachment_use="False"/>-->
 
         <template id="report_sale_order_ordinary_confession_view">
             <t t-call="web.html_container">
