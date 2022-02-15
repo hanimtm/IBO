@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0f47a27-cca5-421a-a357-b6a3e9ae09c5" name="Default Changelist" comment="" />
+    <list default="true" id="a0f47a27-cca5-421a-a357-b6a3e9ae09c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/custom_header_footer_report/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_header_footer_report/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_header_footer_report/reports/template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_header_footer_report/static/src/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amcl_al_emlak/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/amcl_al_emlak/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,22 +16,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom_header_footer_report/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pos_custom_buttons/__manifest__.py">
+        <entry file="file://$PROJECT_DIR$/custom_header_footer_report/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="22" lean-forward="true" selection-end-line="38" />
+            <state relative-caret-position="264">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom_header_footer_report/reports/template.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-111">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/amcl_al_emlak/reports/form_nb_4_report.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="49" column="98" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="49" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="OdooViewEmpty" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>test</find>
+      <find>dire</find>
+      <find>src</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Program Files (x86)\odoo15e\addons\IBO\amcl_al_emlak\reports</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,19 +78,9 @@
         <option value="$PROJECT_DIR$/models/sale_order_inherit.py" />
         <option value="$PROJECT_DIR$/views/sale_order_inherit.xml" />
         <option value="$PROJECT_DIR$/__manifest__.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/IBO.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/IBO.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/custom_header_footer_report/__init__.py" />
+        <option value="$PROJECT_DIR$/custom_header_footer_report/reports/template.xml" />
+        <option value="$PROJECT_DIR$/custom_header_footer_report/__manifest__.py" />
       </list>
     </option>
   </component>
@@ -63,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,22 +107,61 @@
             <path>
               <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBO" type="462c0819:PsiDirectoryNode" />
-              <item name="pos_custom_buttons" type="462c0819:PsiDirectoryNode" />
+              <item name="amcl_al_emlak" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
               <item name="IBO" type="462c0819:PsiDirectoryNode" />
-              <item name="sale_order_custom" type="462c0819:PsiDirectoryNode" />
+              <item name="amcl_al_emlak" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBO" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_header_footer_report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBO" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_header_footer_report" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBO" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_header_footer_report" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBO" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_header_footer_report" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IBO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IBO" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_header_footer_report" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../amcl_al_emlak" />
+    <property name="DefaultOdooViewFileTemplate" value="OdooViewEmpty" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom_header_footer_report" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\odoo15e\addons\IBO\custom_header_footer_report" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,8 +220,47 @@
     <entry file="file://$PROJECT_DIR$/views/sale_order_inherit.xml" />
     <entry file="file://$PROJECT_DIR$/pos_custom_buttons/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="-264">
           <caret line="6" column="22" lean-forward="true" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/static/src/img/emlak_pic.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/static/src/img/lexus.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/static/src/img/toyota.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/static/src/img/mrour.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/static/src/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amcl_al_emlak/reports/form_nb_4_report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="49" column="98" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="49" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/reports/template.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_header_footer_report/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>

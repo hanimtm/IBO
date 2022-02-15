@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="external_layout_standard_custom" inherit="web.external_layout_standard">
+        <!-- *** Custom Header *** -->
+        <xpath expr="//div[1]" position="replace">
+            <div t-attf-class="header o_company_#{company.id}_layout" t-att-style="report_header_style">
+                <div class="row" style="direction: rtl;">
+                    <div class="col-md-4" style="text-align:right;">
+                        <b>
+                            شركة العملاق التجارية
+                        </b>
+                        <br/>
+                        <b>
+                            س.ت :
+                        </b>
+                    </div>
+
+                    <div class="col-md-4" style="text-align:center;">
+                        <img class="img" src="/amcl_al_emlak/static/src/img/logo.png"
+                             style="height:200px;width:300px; text-align:right;"/>
+                    </div>
+
+                    <div class="col-md-4" style="text-align:left;">
+                        <b>
+                            ALEMLAQ TRADING Co.
+                        </b>
+                        <br/>
+                        <b>
+                            C.R. 4030014074
+                        </b>
+                    </div>
+
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+</odoo>
