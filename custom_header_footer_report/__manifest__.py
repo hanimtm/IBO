@@ -2,7 +2,7 @@
 {
     'name': "Custom Report",
 
-    'summary': """+
+    'summary': """
     """,
 
     'description': """
