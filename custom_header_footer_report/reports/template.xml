@@ -9,11 +9,12 @@
                     <div class="col-4" style="text-align:right; margin-top:30px;">
                         <b style="font-size:20px; color:red; font-family: Droid Arabic Kufi;">
                             شركة العملاق التجارية
+                            <br/>
+                            س.ت :٤٠٣٠٠١٤٠٧٤
                         </b>
                         <br/>
-                        <b style="font-size:15px; color:red; font-family: Droid Arabic Kufi;">
-                            س,ت :٤٠٣٠٠١٤٠٧٤
-                        </b>
+<!--                        <b style="font-size:15px; color:red; font-family: Droid Arabic Kufi;">-->
+<!--                        </b>-->
                     </div>
 
                     <div class="col-4" style="text-align:center;">
@@ -25,11 +26,13 @@
                     <div class="col-4" style="text-align:left; margin-top:30px;">
                         <b style="font-size:20px; font-family: sans-serif; color:red;">
                             ALEMLAQ TRADING Co
+                            <br/>
+                            C.R. 4030014074
                         </b>
                         <br/>
-                        <b style="font-size:15px; font-family: sans-serif; color:red;">
-                             C.R. 4030014074
-                        </b>
+<!--                        <b style="font-size:15px; font-family: sans-serif; color:red;">-->
+<!--                            -->
+<!--                        </b>-->
                     </div>
                 </div>
             </div>
