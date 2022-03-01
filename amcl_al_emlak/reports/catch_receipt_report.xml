@@ -24,7 +24,8 @@
                 name="amcl_al_emlak.report_catch_receipt_report_view"
                 file="amcl_al_emlak.report_catch_receipt_report"
                 paperformat="amcl_al_emlak.paperformat_catch_receipt_without_header_and_footer_report"
-                report_type="qweb-pdf"/>
+                report_type="qweb-pdf"
+                menu="False"/>
 
         <template id="report_catch_receipt_report_view">
             <t t-call="web.html_container">
@@ -91,7 +92,9 @@
 
                                     <td style="width:33%; text-align:left">
                                         <b>Date:</b>
-                                       <b><span t-field="doc.date"/></b>
+                                        <b>
+                                            <span t-field="doc.date"/>
+                                        </b>
                                     </td>
 
                                 </tr>
